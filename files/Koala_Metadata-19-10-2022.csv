@@ -1,0 +1,431 @@
+Sample ID,Sample Provider,Email,Permit #,Collection Date,Sample Type,Sex,State,LGA,Location,NSW ARKS,Sequencing Run,Raw File Name,Coverage,Uploaded to AWS (Y/N),AWS File Name,AWS Folder Name
+B20093,Carolyn Hogg,opportunisticsample@zoo.nsw.gov.au,4a/06/22 (University of Sydney acknowledges the contribution of these samples by Taronga Zoo),6/24/2022,Blood,F,Captive,Captive,Taronga Zoo,,9,TarZoo_F_B20093,32.4,,TarZoo_F_B20093,Captive
+B60339,Carolyn Hogg,opportunisticsample@zoo.nsw.gov.au,4a/06/22 (University of Sydney acknowledges the contribution of these samples by Taronga Zoo),3/18/2022,Blood,M,Captive,Captive,Taronga Zoo,,9,TarZoo_M_B60339,31.2,,TarZoo_M_B60339,Captive
+B70170,Carolyn Hogg,opportunisticsample@zoo.nsw.gov.au,4a/06/22 (University of Sydney acknowledges the contribution of these samples by Taronga Zoo),6/24/2022,Blood,M,Captive,Captive,Taronga Zoo,,9,TarZoo_M_B70170,31,,TarZoo_M_B70170,Captive
+B80238,Carolyn Hogg,opportunisticsample@zoo.nsw.gov.au,4a/06/22 (University of Sydney acknowledges the contribution of these samples by Taronga Zoo),3/28/2022,Blood,F,Captive,Captive,Taronga Zoo,,9,TarZoo_F_B80238,32.5,,TarZoo_F_B80238,Captive
+M.46850.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,F,Captive,Captive,Featherdale Wildlife Park,,8,FWP_F_46850,31.7,,Featherdale_F_46850,Captive
+M.46851.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,M,Captive,Captive,Featherdale Wildlife Park,,8,FWP_M_46851,32.1,,Featherdale_M_46851,Captive
+M.46857.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,F,Captive,Captive,Featherdale Wildlife Park,,8,FWP_F_46857,33,,Featherdale_F_46857,Captive
+M.46860.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,F,Captive,Captive,Featherdale Wildlife Park,,8,FWP_F_46860,31.1,,Featherdale_F_46860,Captive
+M.46861.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,F,Captive,Captive,Featherdale Wildlife Park,,8,FWP_F_46861,34.4,,Featherdale_F_46861,Captive
+M.46865.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,F,Captive,Captive,Featherdale Wildlife Park,,8,FWP_F_46865,32.4,,Featherdale_F_46865,Captive
+M.46878.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,M,Captive,Captive,Featherdale Wildlife Park,,8,FWP_M_46878,34.1,,Featherdale_M_46878,Captive
+M.46879.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,M,Captive,Captive,Featherdale Wildlife Park,,8,FWP_M_46879,31.1,,Featherdale_F_46879,Captive
+M.47070.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Ear biopsy,M,NSW,Armidale,Armidale,Armidale,7,Armid_M_M7070,29.8,Y,Armidale_M_M7070,NSW_Armidale
+M.50273.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,23/05/2016,Earplug,F,NSW,Armidale,Armidale,Armidale,5,Armidale_F_M50273,31.9,Y,Armidale_F_M50273,NSW_Armidale
+M.50329.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,12/11/2015,Ear biopsy,M,NSW,Ballina Shire,Alstonvale,Broadwater,7,NRiv_M_M50329,29.7,Y,Northern-Rivers_M_M50329,NSW_Ballina
+M.50414.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,26/07/2017,Ear biopsy,F,NSW,Ballina Shire,Pimlico,Broadwater,8,Broad_F_50414,31.7,Y,Broadwater_F_50414,NSW_Ballina
+M.50439.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,30/09/2017,Muscle,M,NSW,Ballina Shire,Ballina,Broadwater,8,Broad_M_50439,33.3,Y,Broadwater_M_50439,NSW_Ballina
+M.50450.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,21/11/2017,Ear biopsy,M,NSW,Ballina Shire,Pitt Street,Broadwater,7,NRiv_M_M50450,32.1,Y,Northern-Rivers_M_M50450,NSW_Ballina
+M.44977.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,19/08/2007,Tissue,F,NSW,Bellingen,Budangen,Coffs Harbour,6,Coffs_F_M44977,12,Y,Coffs_Harbour_F_M44977,NSW_Bellingen
+M.50543.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,17/07/2018,Ear biopsy,U,NSW,Blayney,Blayney,Wollemi National Park,2,M50543_001,32.7,Y,Wollemi_NP_U_M50543_001,NSW_Blayney
+AN7094923,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Extracted DNA,F,NSW,Blue Mountains,Kurrajong Hills,,8,BMnt_F_7094923,31.5,Y,Blue_Mountains_F_7094923,NSW_Greater_Blue_Mountains
+AN7094976,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Extracted DNA,F,NSW,Blue Mountains,East Kurrajong,,8,BMnt_F_7094976,34.8,Y,Blue_Mountains_F_7094976,NSW_Greater_Blue_Mountains
+AN7094979,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Extracted DNA,F,NSW,Blue Mountains,Kurrajong Hills,,8,BMnt_F_7094979,32.5,Y,Blue_Mountains_F_7094979,NSW_Greater_Blue_Mountains
+AS7041293,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Extracted DNA,M,NSW,Blue Mountains,Grose Vale,,8,BMnt_M_7041293,32.5,Y,Blue_Mountains_M_7041293,NSW_Greater_Blue_Mountains
+M.50306.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,16/03/2016,Ear biopsy,F,NSW,Byron,Skinners Shoot,Byron Bay,2,M50306_001,32.3,Y,Byron_F_M50306_001,NSW_Byron
+M.50370.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,28/05/2016,Ear biopsy,F,NSW,Byron,Federal,Byron Bay,2,M50370_001,34.1,Y,Byron_F_M50370_001,NSW_Byron
+M.50373.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,29/03/2016,Ear biopsy,M,NSW,Byron,Federal,Byron Bay,2,M50373_001,35.6,Y,Byron_M_M50373_001,NSW_Byron
+M.50392.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,28/03/2017,Ear biopsy,M,NSW,Byron,Possum Creek,Byron Bay,2,M50392_001,32.5,Y,Byron_M_M50392_001,NSW_Byron
+M.50393.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,10/04/2017,Ear biopsy,M,NSW,Byron,Byron Bay,Byron Bay,2,M50393_001,33.6,Y,Byron_M_M50393_001,NSW_Byron
+M.50452.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,6/12/2017,Ear biopsy,M,NSW,Byron,Federal,Byron Bay,3,Byron_M_M50452,37.2,Y,Byron_M_M50452,NSW_Byron
+M.50503.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,11/10/2016,Ear biopsy,F,NSW,Byron,Brunswick Heads,Byron Bay,3,Byron_F_M50503,29.5,Y,Byron_F_M50503,NSW_Byron
+M.50504.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,30/10/2016,Ear biopsy,U,NSW,Byron,Ewingsdale,Byron Bay,3,Byron_U_M50504,29.5,Y,Byron_U_M50504,NSW_Byron
+M.50430.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,3/10/2017,Ear biopsy,M,NSW,Byron Bay,Federal,Byron Bay,4,Byron_M_M50430,36.1,Y,Byron_M_M50430,NSW_Byron
+M.50431.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,10/10/2017,Ear biopsy,F,NSW,Byron Bay,Bangalow,Byron Bay,4,Byron_F_M50431,38,Y,Byron_F_M50431,NSW_Byron
+M.50435.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,31/10/2017,Ear biopsy,M,NSW,Byron Bay,Byron Bay,Byron Bay,4,Byron_M_M50435,40.2,Y,Byron_M_M50435,NSW_Byron
+M.50524.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,7/12/2016,Ear biopsy,F,NSW,Byron Bay,Mullumbimby,Byron Bay,8,Byron_F_50524,30.6,Y,Byron_F_50524,NSW_Byron
+M.50531.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,22/11/2016,Ear biopsy,F,NSW,Byron Bay,Myocum,Byron Bay,7,NRiv_F_M50531,31.9,Y,Northern-Rivers_F_M50531,NSW_Byron
+Biya,Ben Moore,B.Moore@westernsydney.edu.au,WSU ethics: A13782; SL102476,12/01/2022,Blood,M,NSW,Campbelltown,0,South West Sydney,8,SWSyd_M_Biya,30.5,Y,SW_Sydney_M_Biya,NSW_Campbelltown
+C10-K1,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,7/06/2021,Ear biopsy,M,NSW,Campbelltown,,South West Sydney,3,CBTown_M_C10K1,38.6,Y,Campbelltown_M_C10K1,NSW_Campbelltown
+C10-K4,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,7/06/2021,Ear biopsy,M,NSW,Campbelltown,,South West Sydney,3,CBTown_M_C10K4,35,Y,Campbelltown_M_C10K4,NSW_Campbelltown
+C11-K1,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,27/05/2021,Ear biopsy,M,NSW,Campbelltown,,South West Sydney,3,CBTown_M_C11K1,31.6,Y,Campbelltown_M_C11K1,NSW_Campbelltown
+C11-K2,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,27/05/2021,Ear biopsy,F,NSW,Campbelltown,,Southwest Sydney,4,CBTown_F_C11K2,33.3,Y,Campbelltown_F_C11K2,NSW_Campbelltown
+C12-K2,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,26/05/2021,Ear biopsy,F,NSW,Campbelltown,,South West Sydney,3,CBTown_F_C12K2,35.6,Y,Campbelltown_F_C12K2,NSW_Campbelltown
+C12-K3,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,26/05/2021,Ear biopsy,M,NSW,Campbelltown,,South West Sydney,3,CBTown_M_C12K3,35.2,Y,Campbelltown_M_C12K3,NSW_Campbelltown
+C12-K4,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,26/05/2021,Ear biopsy,F,NSW,Campbelltown,,South West Sydney,3,CBTown_F_C12K4,35.1,Y,Campbelltown_F_C12K4,NSW_Campbelltown
+C5-K7,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,15/06/2021,Ear biopsy,F,NSW,Campbelltown,,South West Sydney,3,CBTown_F_C5K7,34.6,Y,Campbelltown_F_C5K7,NSW_Campbelltown
+C5-K8,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,15/06/2021,Ear biopsy,M,NSW,Campbelltown,,South West Sydney,3,CBTown_M_C5K8,35.6,Y,Campbelltown_M_C5K8,NSW_Campbelltown
+C6-K1,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,8/06/2021,Ear biopsy,M,NSW,Campbelltown,,South West Sydney,3,CBTown_M_C6K1,33.9,Y,Campbelltown_M_C6K1,NSW_Campbelltown
+C6-K2,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,8/06/2021,Ear biopsy,M,NSW,Campbelltown,,Southwest Sydney,4,CBTown_M_C6K2,35.6,Y,Campbelltown_M_C6K2,NSW_Campbelltown
+C6-K5,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,8/06/2021,Ear biopsy,F,NSW,Campbelltown,,South West Sydney,3,CBTown_F_C6K5,38.6,Y,Campbelltown_F_C6K5,NSW_Campbelltown
+C7-K2,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,28/05/2021,Ear biopsy,F,NSW,Campbelltown,,South West Sydney,3,CBTown_F_C7K2,37.5,Y,Campbelltown_F_C7K2,NSW_Campbelltown
+Dalang,Ben Moore,B.Moore@westernsydney.edu.au,WSU ethics: A13782; SL102476,12/01/2022,Blood,M,NSW,Campbelltown,0,South West Sydney,8,SWSyd_M_Dalang,31.7,Y,SW_Sydney_M_Dalang,NSW_Campbelltown
+Giloa,Ben Moore,B.Moore@westernsydney.edu.au,WSU ethics: A13782; SL102476,19/01/2022,Blood,M,NSW,Campbelltown,0,South West Sydney,8,SWSyd_M_Giloa,32.3,Y,SW_Sydney_M_Giloa,NSW_Campbelltown
+Kimberwolli,Ben Moore,B.Moore@westernsydney.edu.au,WSU ethics: A13782; SL102476,12/01/2022,Blood,M,NSW,Campbelltown,0,South West Sydney,8,SWSyd_M_Kimber,28.6,Y,SW_Sydney_M_Kimber,NSW_Campbelltown
+Marble,Ben Moore,B.Moore@westernsydney.edu.au,WSU ethics: A13782; SL102476,2/04/2021,Ear biopsy,M,NSW,Campbelltown,Kentlyn,Bungonia,1,K2,29.9,Y,Campbelltown_M_Marble,NSW_Campbelltown
+Mirribi,Ben Moore,B.Moore@westernsydney.edu.au,WSU ethics: A13782; SL102476,19/01/2022,Blood,M,NSW,Campbelltown,0,South West Sydney,8,SWSyd_M_Mirribi,29.3,Y,SW_Sydney_M_Mirribi,NSW_Campbelltown
+Yung,Ben Moore,B.Moore@westernsydney.edu.au,WSU ethics: A13782; SL102476,19/01/2022,Blood,M,NSW,Campbelltown,0,South West Sydney,8,SWSyd_M_Yung,27.4,Y,SW_Sydney_M_Yung,NSW_Campbelltown
+M.50294.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,6/11/2015,Ear biopsy,M,NSW,Clarence Valley,Seelands,Southern Clarence,2,M50294_001,26.6,Y,Clarence_Valley_M_M50294_001,NSW_Clarence_Valley
+M.50344.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,24/05/2016,Ear biopsy,M,NSW,Clarence Valley,Upper Copmanhurst,Southern Clarence,2,M50344_001,33.4,Y,Clarence_Valley_M_M50344_001,NSW_Clarence_Valley
+M.50359.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,25/02/2016,Ear biopsy,M,NSW,Clarence Valley,The Whiteman,Southern Clarence,2,M50359_001,32.5,Y,Clarence_Valley_M_M50359_001,NSW_Clarence_Valley
+M.50437.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,25/10/2017,Ear biopsy,F,NSW,Clarence Valley,Seelands,Southern Clarence,4,SClarence_F_M50437,32.3,Y,South_Clarence_F_M50437,NSW_Clarence_Valley
+M.50499.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,3/01/2017,Ear biopsy,M,NSW,Clarence Valley,Mylneford,Southern Clarence,3,Graft_M_M50499,35.2,Y,Grafton_M_M50499,NSW_Clarence_Valley
+M.44980.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,13/09/2007,Tissue,F,NSW,Coffs Harbour,Coffs Harbour,Coffs Harbour,8,Coffs_F_44980,36.3,Y,Coffs_Harbour_F_44980,NSW_Coffs_Harbour
+M.44984.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,14/01/2008,Tissue,M,NSW,Coffs Harbour,Bonville,Coffs Harbour,8,Coffs_M_44984,27.5,Y,Coffs_Harbour_M_44984,NSW_Coffs_Harbour
+M.47046.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,1/09/2009,Muscle,F,NSW,Coffs Harbour,Toormina,Coffs Harbour,6,Coffs_F_M47046,31.5,Y,Coffs_Harbour_F_M47046,NSW_Coffs_Harbour
+C11212,Taronga Western Plains Zoo,opportunisticsample@zoo.nsw.gov.au,R22L341,,Ear biopsy,M,NSW,Dubbo,Foster's Valley,,3,Dubbo_U_C11212,35.7,Y,Dubbo_M_C11212,NSW_Dubbo
+C11358,Taronga Western Plains Zoo,opportunisticsample@zoo.nsw.gov.au,R22L341,,Ear biopsy,M,NSW,Dubbo,Dubbo,,3,Dubbo_U_C11358,35.8,Y,Dubbo_M_C11358,NSW_Dubbo
+C11413,Taronga Western Plains Zoo,opportunisticsample@zoo.nsw.gov.au,R22L341,,Ear biopsy,M,NSW,Dubbo,Dubbo,,3,Dubbo_U_C11413,35.8,Y,Dubbo_M_C11413,NSW_Dubbo
+C11512,Taronga Western Plains Zoo,opportunisticsample@zoo.nsw.gov.au,R22L341,,Blood,M,NSW,Dubbo,,Dubbo,4,Dubbo_U_C11512,42.5,Y,Dubbo_M_C11512,NSW_Dubbo
+M.49249.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,29/12/2016,Ear biopsy,M,NSW,Gundagai,Rileys Hill,No ARK,6,GDagai_M_M49249,32.6,Y,Gundagai_M_M49249,NSW_Gundagai
+C11085,Taronga Western Plains Zoo,jmilgate@zoo.nsw.gov.au,,,Blood,M,NSW,Gunnedah,,Gunnedah,4,Dubbo_U_C11085,40.9,Y,Dubbo_M_C11085,NSW_Gunnedah
+DECC015,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,10/09/2016,Tissue,M,NSW,Gunnedah,Gunnedah,Gunnedah,1,M_DECC015_GUH,33.5,Y,GUH_M_DECC015,NSW_Gunnedah
+DECC076,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,10/09/2016,Tissue,M,NSW,Gunnedah,Gunnedah,Gunnedah,1,M_DECC076_GUH,27.7,Y,GUH_M_DECC076,NSW_Gunnedah
+DECC104,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,13/09/2016,Tissue,F,NSW,Gunnedah,Gunnedah,Gunnedah,1,F_DECC104_GUH,33.2,Y,GUH_F_DECC104,NSW_Gunnedah
+DECC130,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,1/09/2016,Tissue,F,NSW,Gunnedah,Gunnedah,Gunnedah,1,F_DECC130_GUH,34.4,Y,GUH_F_DECC130,NSW_Gunnedah
+DECC137F,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,2/05/2017,Lithium heparin Buffy coat,F,NSW,Gunnedah,Gunnedah,Gunnedah,1,F_DECC137F_GUH,32.2,Y,GUH_F_DECC137F,NSW_Gunnedah
+DECC162,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,24/09/2017,Lithium heparin Buffy coat,F,NSW,Gunnedah,Gunnedah,Gunnedah,1,F_DECC162_GUH,32.9,Y,GUH_F_DECC162,NSW_Gunnedah
+M.46160.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,12/11/2012,Ear biopsy,U,NSW,Gunnedah,Gunnedah,Liverpool Plains,8,LPlains_U_46160,30.5,Y,Liverpool_Plains_U_46160,NSW_Gunnedah
+M.46161.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,/10/2012 - /02/2013,Ear biopsy,M,NSW,Gunnedah,Gunnedah,Liverpool Plains,6,LPlain_M_M46161,27.9,Y,Liverpool_Plains_M_M46161,NSW_Gunnedah
+M.48961.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582, 01/10/2017,Ear biopsy,F,NSW,Gunnedah,Gunnedah,Liverpool Plains,6,LPlain_F_M48961,32.9,Y,Liverpool_Plains_F_M48961,NSW_Gunnedah
+M.48962.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582, 26/09/2017,Ear biopsy,F,NSW,Gunnedah,Gunnedah,Liverpool Plains,6,LPlain_F_M48962,28.9,Y,Liverpool_Plains_F_M48962,NSW_Gunnedah
+M.48964.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,28/09/2017,Ear biopsy,F,NSW,Gunnedah,Gunnedah,Liverpool Plains,8,LPlains_F_48964,32.5,Y,Liverpool_Plains_F_48964,NSW_Gunnedah
+M.48967.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,28/09/2017,Ear biopsy,M,NSW,Gunnedah,Gunnedah,Liverpool Plains,8,LPlains_M_48967,32.8,Y,Liverpool_Plains_M_48967,NSW_Gunnedah
+M.48973.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582, 27/09/2017,Ear biopsy,M,NSW,Gunnedah,Gunnedah,Liverpool Plains,8,LPlains_M_48973,32.4,Y,Liverpool_Plains_M_48973,NSW_Gunnedah
+M.48974.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582, 27/09/2017,Ear biopsy,F,NSW,Gunnedah,Gunnedah,Liverpool Plains,6,LPlain_F_M48974,34.9,Y,Liverpool_Plains_F_M48974,NSW_Gunnedah
+M.48983.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,21/09/2017,Ear biopsy,M,NSW,Gunnedah,Gunnedah,Liverpool Plains,6,LPlain_M_M48983,34.9,Y,Liverpool_Plains_M_M48983,NSW_Gunnedah
+M.49001.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,4/05/2017,Ear plug,M,NSW,Gunnedah,Gunnedah,Liverpool Plains,8,LPlains_M_49001,32.5,Y,Liverpool_Plains_M_49001,NSW_Gunnedah
+M.49019.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,30/04/2017,Ear biopsy,F,NSW,Gunnedah,Milroy,Liverpool Plains,8,LPlains_F_49019,31.4,Y,Liverpool_Plains_F_49019,NSW_Gunnedah
+M.49020.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,30/04/2017,Ear biopsy,M,NSW,Gunnedah,Milroy,Liverpool Plains,2,M49020_001,35,Y,Liverpool_Plains_M_M49020_001,NSW_Gunnedah
+M.49021.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,30/04/2017,Ear biopsy,M,NSW,Gunnedah,Milroy,Liverpool Plains,2,M49021_001,29.3,Y,Liverpool_Plains_M_M49021_001,NSW_Gunnedah
+M.49023.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,29/04/2017,Ear biopsy,F,NSW,Gunnedah,Curlewis,Liverpool Plains,2,M49023_001,27.7,Y,Liverpool_Plains_F_M49023_001,NSW_Gunnedah
+USYD014,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,12/07/2018,Blood,M,NSW,Gunnedah,Gunnedah,Gunnedah,1,M_USYD014_GUH,34.5,Y,GUH_M_USYD014,NSW_Gunnedah
+USYD040,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,12/07/2018,Blood,M,NSW,Gunnedah,Gunnedah,Gunnedah,1,M_USYD040_GUH,32.1,Y,GUH_M_USYD040,NSW_Gunnedah
+USYD062F,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,27/07/2019,Tissue,F,NSW,Gunnedah,Gunnedah,Gunnedah,1,F_USYD062F_GUH,33.3,Y,GUH_F_USYD062F,NSW_Gunnedah
+USYD089F,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,16/09/2020,Tissue,F,NSW,Gunnedah,Gunnedah,Gunnedah,1,F_USYD089F_GUH,33.7,Y,GUH_F_USYD089F,NSW_Gunnedah
+USYD098M,Mark Krockenberg,mark.krockenberger@sydney.edu.au,USYD Ethics: 1547; NSW NPWS SL102331,15/09/2020,Tissue,M,NSW,Gunnedah,Gunnedah,Gunnedah,1,M_USYD098M_GUH,27.1,Y,GUH_M_USYD098M,NSW_Gunnedah
+M.47687.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,13/08/2014,Ear biopsy,M,NSW,Gwydir,Warialda,Inverell,2,M47687_001,34,Y,Inverell_M_M47687_001,NSW_Gwydir
+M.50293.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,21/06/2016,Ear biopsy,M,NSW,Gwydir,Bingara,Inverell,2,M50293_001,33.9,Y,Inverell_M_M50293_001,NSW_Gwydir
+M.47634.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,16/09/2014,Ear biopsy,M,NSW,Kempsey,South Kempsey,South Kempsey,2,M47634_001,33.7,Y,South_Kempsey_M_M47634_001,NSW_Kempsey
+M.49289.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,28/07/2017,Ear plug,F,NSW,Kyogle,Kyogle,West Kyogle,5,Kyogle_U_M49289,35.1,Y,Kyogle_F_M49289,NSW_Kyogle
+M.50316.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,3/05/2016,Ear biopsy,M,NSW,Kyogle,Babyl Creek,West Kyogle,8,Kyogle_M_50316,31.8,Y,Kyogle_M_50316,NSW_Kyogle
+M.50350.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,2/03/2016,Ear biopsy,F,NSW,Kyogle,Woodenbong,West Kyogle,8,Kyogle_F_50350,32.1,Y,Kyogle_F_50350,NSW_Kyogle
+M.50350.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,2/03/2016,Ear biopsy,F,NSW,Kyogle,Woodenbong,West Kyogle,7,NRiv_F_M50350,30.7,Y,Northern-Rivers_F_M50350,NSW_Kyogle
+M.50355.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,13/07/2016,Ear biopsy,M,NSW,Kyogle,Stony Shoot,West Kyogle,2,M50355_001,33.9,Y,Kyogle_M_M50355_001,NSW_Kyogle
+M.50356.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,20/11/2015,Ear biopsy,F,NSW,Kyogle,Fawcetts Plain,West Kyogle,8,Kyogle_F_50356,30.1,Y,Kyogle_F_50356,NSW_Kyogle
+M.50360.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,11/04/2016,Ear biopsy,M,NSW,Kyogle,Cawongla,West Kyogle,8,Kyogle_M_50360,32.4,Y,Kyogle_M_50360,NSW_Kyogle
+M.50374.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,21/07/2016,Ear biopsy,M,NSW,Kyogle,Horseshoe Creek,West Kyogle,2,M50374_001,27.3,Y,Kyogle_M_M50374_001,NSW_Kyogle
+M.50384.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,14/02/2017,Ear biopsy,M,NSW,Kyogle,The Risk,West Kyogle,8,Kyogle_M_50384,30,Y,Kyogle_M_50384,NSW_Kyogle
+M.50418.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,28/07/2017,Ear biopsy,F,NSW,Kyogle,Kyogle,West Kyogle,4,Kyogle_F_50418,33.2,Y,Kyogle_F_50418,NSW_Kyogle
+M.50420.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,10/08/2017,Ear biopsy,M,NSW,Kyogle,Cawongla,West Kyogle,4,Kyogle_M_50420,34.9,Y,Kyogle_M_50420,NSW_Kyogle
+M.50433.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,18/10/2017,Ear biopsy,F,NSW,Kyogle,Toonumbar,West Kyogle,4,Kyogle_F_50433,34.7,Y,Kyogle_F_50433,NSW_Kyogle
+M.50434.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,16/10/2017,Ear biopsy,F,NSW,Kyogle,Fawcetts Plain,West Kyogle,4,Kyogle_F_50434,36.3,Y,Kyogle_F_50434,NSW_Kyogle
+M.50438.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,25/10/2017,Ear biopsy,F,NSW,Kyogle,Tabulam,West Kyogle,4,Kyogle_F_50438,36.1,Y,Kyogle_F_50438,NSW_Kyogle
+M.50448.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,23/11/2017,Ear biopsy,M,NSW,Kyogle,Dairy Flat,West Kyogle,5,Kyogle_M_M50448,31.8,Y,Kyogle_M_M50448,NSW_Kyogle
+M.50471.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,8/11/2016,Ear biopsy,F,NSW,Kyogle,Green Pigeon,West Kyogle,5,Kyogle_F_M50471,29.9,Y,Kyogle_F_M50471,NSW_Kyogle
+M.50481.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,2/12/2016,Ear biopsy,M,NSW,Kyogle,Horse Station Creek,West Kyogle,3,Kyogle_M_M50481,35.3,Y,Kyogle_M_M50481,NSW_Kyogle
+M.50488.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,8/11/2016,Ear biopsy,M,NSW,Kyogle,Cougal,West Kyogle,5,Kyogle_U_M50488,32.5,Y,Kyogle_M_M50488,NSW_Kyogle
+M.50519.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,17/08/2016,Ear biopsy,F,NSW,Kyogle,Roseberry,West Kyogle,3,Kyogle_F_M50519,33.1,Y,Kyogle_F_M50519,NSW_Kyogle
+M.50927.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,10/07/2017,Ear biopsy,M,NSW,Kyogle,Cawongla,West Kyogle,4,Kyogle_M_50927,37.3,Y,Kyogle_M_50927,NSW_Kyogle
+2110271,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,23/11/2021,Ear biopsy,F,NSW,Lismore,Federal,Far north-east Hinterland,7,Lismo_F_2110271,32.4,Y,Lismore_F_2110271,NSW_Lismore
+2111152,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,15/11/2021,Ear biopsy,F,NSW,Lismore,Dungarubba,Far north-east Hinterland,7,Lismo_F_2111152,32.4,Y,Lismore_F_2111152,NSW_Lismore
+2111192,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,19/11/2021,Ear biopsy,M,NSW,Lismore,Tucki Tucki Creek,Far north-east Hinterland,7,Lismo_M_2111192,30.1,Y,Lismore_M_2111192,NSW_Lismore
+2111222,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,23/11/2021,Ear biopsy,F,NSW,Lismore,West Geneva,Far north-east Hinterland,7,Lismo_F_2111222,31.3,Y,Lismore_F_2111222,NSW_Lismore
+2111232,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,23/11/2021,Ear biopsy,F,NSW,Lismore,Clovass,Far north-east Hinterland,7,Lismo_F_2111232,30.9,Y,Lismore_F_2111232,NSW_Lismore
+2111271,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,27/11/2021,Ear biopsy,M,NSW,Lismore,Dalwood,Far north-east Hinterland,7,Lismo_M_2111271,31.4,Y,Lismore_M_2111271,NSW_Lismore
+2112021,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,9/12/2021,Ear biopsy,M,NSW,Lismore,Larnook,Far north-east Hinterland,7,Lismo_M_2112021,32.9,Y,Lismore_M_2112021,NSW_Lismore
+2112201,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,20/12/2021,Ear biopsy,F,NSW,Lismore,East Lismore,Far north-east Hinterland,7,Lismo_F_2112201,33.9,Y,Lismore_F_2112201,NSW_Lismore
+2112212,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,22/12/2021,Ear biopsy,F,NSW,Lismore,Dum Dum,Far north-east Hinterland,7,Lismo_F_2112212,32.4,Y,Lismore_F_2112212,NSW_Lismore
+2112273,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,27/12/2021,Ear biopsy,F,NSW,Lismore,Woodburn,Far north-east Hinterland,7,Lismo_F_2112273,31.6,Y,Lismore_F_2112273,NSW_Lismore
+M.50295.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,18/11/2015,Ear plug,M,NSW,Lismore,Lindendale,Far north-east Hinterland,5,Lismore_U_M50295,33.7,Y,Lismore_M_M50295,NSW_Lismore
+M.50298.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,4/02/2016,Ear plug,F,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_F_M50298,31,Y,Lismore_F_M50298,NSW_Lismore
+M.50309.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,28/05/2016,Ear biopsy,F,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_F_M50309,32.3,Y,Lismore_F_M50309,NSW_Lismore
+M.50310.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,6/07/2016,Ear biopsy,F,NSW,Lismore,Whian Whian,Far north-east Hinterland,6,Lismor_F_M50310,29.8,Y,Lismore_F_M50310,NSW_Lismore
+M.50336.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,8/06/2016,Ear biopsy,F,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_F_M50336,33,Y,Lismore_F_M50336,NSW_Lismore
+M.50340.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,17/01/2016,Ear biopsy,F,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_F_M50340,31.6,Y,Lismore_F_M50340,NSW_Lismore
+M.50352.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582, 23/04/2016,Ear biopsy,M,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_M_M50352,31.2,Y,Lismore_M_M50352,NSW_Lismore
+M.50369.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,22/04/2016,Ear biopsy,F,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_F_M50369,30.5,Y,Lismore_F_M50369,NSW_Lismore
+M.50379.001,Australian Museum,Tissue@Australian.Museum,SL100582,20/01/2017,Ear biopsy,F,NSW,Lismore,The Channon,Far north-east Hinterland,7,NRiv_F_M50379,29.3,Y,Northern-Rivers_F_M50379,NSW_Lismore
+M.50397.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,10/05/2017,Ear biopsy,M,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_M_M50397,32.5,Y,Lismore_M_M50397,NSW_Lismore
+M.50411.001,Australian Museum,Tissue@Australian.Museum,SL100582,7/07/2017,Ear biopsy,F,NSW,Lismore,Tregeagle,Far north-east Hinterland,7,NRiv_F_M50411,32.4,Y,Northern-Rivers_F_M50411,NSW_Lismore
+M.50451.001,Australian Museum,Tissue@Australian.Museum,SL100582,4/12/2017,Ear biopsy,F,NSW,Lismore,Coffee Camp,Far north-east Hinterland,7,NRiv_F_M50451,32.6,Y,Northern-Rivers_F_M50451,NSW_Lismore
+M.50467.001,Australian Museum,Tissue@Australian.Museum,SL100582,11/08/2016,Ear biopsy,F,NSW,Lismore,Tuckurimba,Far north-east Hinterland,7,NRiv_F_M50467,33.4,Y,Northern-Rivers_F_M50467,NSW_Lismore
+M.50510.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,11/08/2016,Ear biopsy,F,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_F_M50510,31.5,Y,Lismore_F_M50510,NSW_Lismore
+M.50511.001,Australian Museum,Tissue@Australian.Museum,SL100582,17/09/2016,Ear biopsy,M,NSW,Lismore,Wyrallah,Far north-east Hinterland,7,NRiv_M_M50511,29.3,Y,Northern-Rivers_M_M50511,NSW_Lismore
+M.50517.001,Australian Museum,Tissue@Australian.Museum,SL100582,15/12/2016,Ear biopsy,F,NSW,Lismore,Gundurimba,Far north-east Hinterland,7,NRiv_F_M50517,29.2,Y,Northern-Rivers_F_M50517,NSW_Lismore
+M.50535.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,2/08/2016,Ear biopsy,M,NSW,Lismore,Lismore,Far north-east Hinterland,6,Lismor_M_M50535,31.8,Y,Lismore_M_M50535,NSW_Lismore
+C2-K2,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,18/06/2021,Ear biopsy,M,NSW,Liverpool,,South West Sydney,3,CBTown_M_C2K2,36.9,Y,Campbelltown_M_C2K2,NSW_Liverpool
+C2-K4,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,18/06/2021,Ear biopsy,F,NSW,Liverpool,,South West Sydney,3,CBTown_F_C2K4,39.3,Y,Campbelltown_F_C2K4,NSW_Liverpool
+C3-K1,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,23/06/2021,Ear biopsy,M,NSW,Liverpool,,South West Sydney,3,CBTown_M_C3K1,34.8,Y,Campbelltown_M_C3K1,NSW_Liverpool
+C3-K2,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,23/06/2021,Ear biopsy,F,NSW,Liverpool,,South West Sydney,3,CBTown_F_C3K2,37,Y,Campbelltown_F_C3K2,NSW_Liverpool
+C3-K3,Enhua Lee,Enhua.lee@environment.nsw.gov.au,DPIE AEC No 210420/03,23/06/2021,Ear biopsy,M,NSW,Liverpool,,South West Sydney,3,CBTown_M_C3K3,33.9,Y,Campbelltown_M_C3K3,NSW_Liverpool
+M.47976.005,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,10/06/2010,Muscle,M,NSW,Narrabri,Narrabri,Pilliga,3,Pillig_M_M47976,46.2,Y,Pilliga_M_M47976,NSW_Narrabri
+M.45930.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,2004,Ear biopsy,M,NSW,Narrandera,,Narrandera,8,Narran_M_45930,31.7,Y,Narrandera_M_45930,NSW_Narrandera
+N1,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/27/2022,Blood,F,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_F_N1,31.8,,Narrandra_F_N1,NSW_Narrandera
+N11,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/28/2022,Blood,M,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_M_N11,31.4,,Narrandra_M_N11,NSW_Narrandera
+N12,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/28/2022,Blood,F,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_F_N12,32.8,,Narrandra_F_N12,NSW_Narrandera
+N13,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/28/2022,Blood,F,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_F_N13,32.5,,Narrandra_F_N13,NSW_Narrandera
+N14,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/28/2022,Blood,F,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_F_N14,31.2,,Narrandra_F_N14,NSW_Narrandera
+N15,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/28/2022,Blood,M,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_M_N15,32.2,,Narrandra_M_N15,NSW_Narrandera
+N16,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/28/2022,Blood,M,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_M_N16,31.8,,Narrandra_M_N16,NSW_Narrandera
+N17,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/29/2022,Blood,F,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_F_N17,32.8,,Narrandra_F_N17,NSW_Narrandera
+N18,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/29/2022,Blood,F,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_F_N18,32.3,,Narrandra_F_N18,NSW_Narrandera
+N2,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/27/2022,Blood,F,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_F_N2,32.6,,Narrandra_F_N2,NSW_Narrandera
+N3,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/27/2022,Blood,M,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_M_N3,32.7,,Narrandra_M_N3,NSW_Narrandera
+N5,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/27/2022,Blood,F,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_F_N5,30.9,,Narrandra_F_N5,NSW_Narrandera
+N6,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/27/2022,Blood,M,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_M_N6,33.2,,Narrandra_M_N6,NSW_Narrandera
+N7,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/27/2022,Blood,M,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_M_N7,32.3,,Narrandra_M_N7,NSW_Narrandera
+N8,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/27/2022,Blood,M,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_M_N8,33.2,,Narrandra_M_N8,NSW_Narrandera
+N9,Rachel Labador,rachel.labador@environment.nsw.gov.au,220426/02 (DPE),6/27/2022,Blood,M,NSW,Narrandera,Narrandera,Narrandera,9,Narrandra_M_N9,32.3,,Narrandra_M_N9,NSW_Narrandera
+80750,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,14/07/2020,Ear biopsy,F,NSW,North Burnett,TERRANORA,,5,NthBurn_F_80750,35.1,Y,North_Burnett_F_80750,QLD_North_Burnett
+AS7041191,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,U,NSW,Oberon,Kanangra-Boyd NP,,7,BMnt_U_7041191,28.4,Y,Blue-Mountains_U_7041191,NSW_Greater_Blue_Mountains
+AS7041193,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,M,NSW,Oberon,Kanangra-Boyd NP,,7,BMnt_M_7041193,30.9,Y,Blue-Mountains_M_7041193,NSW_Greater_Blue_Mountains
+AS7041194,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,M,NSW,Oberon,Kanangra-Boyd NP,,7,BMnt_M_7041194,33,Y,Blue-Mountains_M_7041194,NSW_Greater_Blue_Mountains
+AS7041195,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,F,NSW,Oberon,Kanangra-Boyd NP,,7,BMnt_F_7041195,31.6,Y,Blue-Mountains_F_7041195,NSW_Greater_Blue_Mountains
+AS7041197,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,F,NSW,Oberon,Kanangra-Boyd NP,,7,BMnt_F_7041197,31.4,Y,Blue-Mountains_F_7041197,NSW_Greater_Blue_Mountains
+AS7041198,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,M,NSW,Oberon,Kanangra-Boyd NP,,7,BMnt_M_7041198,31.1,Y,Blue-Mountains_M_7041198,NSW_Greater_Blue_Mountains
+AS7041200,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,M,NSW,Oberon,Kanangra-Boyd NP,,7,BMnt_M_7041200,29.6,Y,Blue-Mountains_M_7041200,NSW_Greater_Blue_Mountains
+AS7041492,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,M,NSW,Oberon,Kurrajong Hills,Wollemi National Park,7,BMnt_M_7041492,29.9,Y,Blue-Mountains_M_7041492,NSW_Greater_Blue_Mountains
+AS7041500,Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101364,,Ear biopsy,F,NSW,Oberon,Kurrajong,Wollemi National Park,7,BMnt_F_7041500,30.9,Y,Blue-Mountains_F_7041500,NSW_Greater_Blue_Mountains
+81900_Lighthouse Rd Lucky,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,16/01/2021,Ear biopsy,M,NSW,Port Macquarie,"32A Lighthouse Rd, Port Macquarie",Port Macquarie,7,PMac_M_81900,30.5,Y,Port-Macquarie_M_81900,NSW_Port_Macquarie
+81913_Laurieton Bailey,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,4/12/2020,Ear biopsy,M,NSW,Port Macquarie,"Stingray Bridge, Laurieton",Port Macquarie,7,PMac_M_81913,30.1,Y,Port-Macquarie_M_81913,NSW_Port_Macquarie
+81925_Cunning Rose,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/10/2020,Ear biopsy,F,NSW,Port Macquarie,"Cnr Cunning & Partridge St, Port Macquarie",Port Macquarie,7,PMac_F_81925,30.1,Y,Port-Macquarie_F_81925,NSW_Port_Macquarie
+81926_Sherwood Frances,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/08/2020,Ear biopsy,F,NSW,Port Macquarie,"Sherwood Road, Port Macquarie",Port Macquarie,7,PMac_F_81926,30.6,Y,Port-Macquarie_F_81926,NSW_Port_Macquarie
+81927_Ocean Dr Kellie,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,25/05/2021,Ear biopsy,F,NSW,Port Macquarie,"Ocean Drive, Port Macquarie",Port Macquarie,7,PMac_F_81927,32,Y,Port-Macquarie_F_81927,NSW_Port_Macquarie
+81947_Oleander Emma,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,6/08/2020,Ear biopsy,F,NSW,Port Macquarie,"10 Oleander Ave, Port Macquarie",Port Macquarie,6,PortMa_F_Emma,33.5,Y,Port_Macquarie_F_Emma,NSW_Port_Macquarie
+81967_Inverell Tom,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,19/10/2020,Ear biopsy,M,NSW,Port Macquarie,Goonoowigall Conservation Area,Port Macquarie,7,PMac_M_81967,31.7,Y,Port-Macquarie_M_81967,NSW_Port_Macquarie
+81976_Orchid Callum,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,13/07/2020,Ear biopsy,M,NSW,Port Macquarie,"14 Orchid Ave, Port Macquarie",Port Macquarie,6,PortMa_M_Callum,30.7,Y,Port_Macquarie_M_Callum,NSW_Port_Macquarie
+81996_Pindari Violet,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,19/10/2020,Ear biopsy,F,NSW,Port Macquarie,"8 Pindari Pde, Port Macquarie",Port Macquarie,7,PMac_F_81996,31.1,Y,Port-Macquarie_F_81996,NSW_Port_Macquarie
+M.50047.005,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,17/11/2017,Ear biopsy,M,NSW,Port Macquarie,Hindman St,Port Macquarie,8,PortMac_M_50047,31.4,Y,Port_Macquarie_M_50047,NSW_Port_Macquarie
+M.50048.004,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,20/12/2017,Ear biopsy,F,NSW,Port Macquarie,The Point Drive,Port Macquarie,8,PortMac_F_50048,30.4,Y,Port_Macquarie_F_50048,NSW_Port_Macquarie
+M.50237.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,11/08/2017,Ear biopsy,M,NSW,Port Macquarie,Port Macquarie,Port Macquarie,6,PortMa_M_M50237,33.2,Y,Port_Macquarie_M_M50237,NSW_Port_Macquarie
+M.50239.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,18/12/2017,Ear biopsy,F,NSW,Port Macquarie,Port Macquarie,Port Macquarie,6,PortMa_F_M50239,31.6,Y,Port_Macquarie_F_M50239,NSW_Port_Macquarie
+900079000267949 (SES Maree),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,17/10/2017,Blood,F,NSW,Port Stephens,Corlette,Port Stephens,1,F_SES_Maree_PTS,29.7,Y,PTS_F_SES-Maree,NSW_Port_Stephens
+900079000267958 (Gilchrist Tilly),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,31/10/2019,Blood,F,NSW,Port Stephens,Salamander Bay,Port Stephens,1,F_Gilchrist_PTS,39.8,Y,PTS_F_Gilchrist,NSW_Port_Stephens
+900079000268035 (Solstice),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,21/06/2018,Blood,M,NSW,Port Stephens,Brunkerville,Port Stephens,1,M_Solstice_PTS,30.4,Y,PTS_M_Solstice,NSW_Port_Stephens
+900079000648426 (Beach Road Spring),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,16/09/2020,Blood,F,NSW,Port Stephens,Nelson Bay,Port Stephens,1,F_Beach_RS_PTS,29.8,Y,PTS_F_Beach-RS,NSW_Port_Stephens
+900079000715868 (Midnight Rose),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,10/10/2020,Blood,F,NSW,Port Stephens,Corlette,Port Stephens,1,F_MidnightR_PTS,37.5,Y,PTS_F_MidnightR,NSW_Port_Stephens
+943094320131658 (Joanie),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,3/08/2018,Blood,F,NSW,Port Stephens,Salamander Bay,Port Stephens,1,F_Joanie_PTS,42.9,Y,PTS_F_Joanie,NSW_Port_Stephens
+943094320249609 (Galloping Jax),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,5/11/2019,Blood,M,NSW,Port Stephens,Salamander Bay,Port Stephens,1,M_Galloping_PTS,36.1,Y,PTS_M_Galloping,NSW_Port_Stephens
+943094320625202 (Eila),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,14/12/2018,Blood,F,NSW,Port Stephens,Salamander Bay,Port Stephens,1,F_Eila_PTS,27.6,Y,PTS_F_Eila,NSW_Port_Stephens
+943094320626389 (Tai),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,15/09/2018,Blood,M,NSW,Port Stephens,Bobs Farm,Port Stephens,1,M_Tai_PTS,37.4,Y,PTS_M_Tai,NSW_Port_Stephens
+953010000652673 (Howie),Carolyn Hogg,carolyn.hogg@sydney.edu.au,SL101204,4/01/2020,Blood,M,NSW,Port Stephens,Soldiers Point,Port Stephens,1,M_Howie_PTS,39.8,Y,PTS_M_Howie,NSW_Port_Stephens
+M.49226.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,11/08/2016,Ear biopsy,F,NSW,Richmond Valley,Doonbah,Broadwater,2,M49026_001,32.1,Y,Richmond_Valley_F_M49226_001,NSW_Richmond_Valley
+M.50328.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,7/14/2016,Ear biopsy,M,NSW,Richmond Valley,Broadwater,Broadwater,9,Broad_M_50328,32.1,,Broadwater_M_50328,NSW_Richmond_Valley
+M.50338.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582, 16/11/2015,Ear biopsy,M,NSW,Richmond Valley,Richmond Valley,Broadwater,6,BWater_M_M50338,32.9,Y,Broadwater_M_M50338,NSW_Richmond_Valley
+M.50347.001,Australian Museum,Tissue@Australian.Museum,SL100582,16/11/2015,Ear biopsy,F,NSW,Richmond Valley,Evans Head,Broadwater,7,NRiv_F_M50347,31.6,Y,Northern-Rivers_F_M50347,NSW_Richmond_Valley
+M.50383.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,10/02/2017,Ear biopsy,F,NSW,Richmond Valley,Woodburn,Broadwater,2,M50383_001,36.2,Y,Broadwater_F_M50383_001,NSW_Richmond_Valley
+M.50395.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,18/04/2017,Ear biopsy,M,NSW,Richmond Valley,Woodburn,Broadwater,2,M50395_001,34.5,Y,Broadwater_M_M50395_001,NSW_Richmond_Valley
+M.50508.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,29/12/2016,Ear biopsy,M,NSW,Richmond Valley,Richmond Valley,Broadwater,8,Broad_M_50508,30.9,Y,Broadwater_M_50508,NSW_Richmond_Valley
+M.50514.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,15/11/2016,Ear biopsy,F,NSW,Richmond Valley,Richmond Valley,Broadwater,6,BWater_F_M50514,32.2,Y,Broadwater_F_M50514,NSW_Richmond_Valley
+941000023900738_Matthew,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,23/07/2020,Blood,M,NSW,Snowy Monaro,Peak View,Numeralla,1,M_Matt_Monaro,35.2,Y,Monaro_M_Matt,NSW_Monaro
+941000024094278_Bear,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,5/03/2021,Blood,M,NSW,Snowy Monaro,Peak View,Numeralla,1,M_Bear_Monaro,34,Y,Monaro_M_Bear,NSW_Monaro
+941000024094306_Malu,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,6/11/2020,Blood,M,NSW,Snowy Monaro,Peak View,Numeralla,1,M_Malu_Monaro,41.6,Y,Monaro_M_Malu,NSW_Monaro
+941000024438375_Tahlia,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,23/07/2020,Blood,F,NSW,Snowy Monaro,Peak View,Numeralla,1,F_Tahlia_Monaro,39.5,Y,Monaro_F_Tahlia,NSW_Monaro
+941000024438404_Hamish,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,6/03/2021,Blood,M,NSW,Snowy Monaro,Peak View,Numeralla,1,M_Hamish_Monaro,41.8,Y,Monaro_M_Hamish,NSW_Monaro
+941000024438406_Tallow,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,23/07/2020,Blood,M,NSW,Snowy Monaro,Peak View,Numeralla,1,M_Tallow_Monaro,33.1,Y,Monaro_M_Tallow,NSW_Monaro
+941000024978413_Madonna,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,4/07/2020,Blood,F,NSW,Snowy Monaro,Numeralla,Numeralla,1,F_Madona_Monaro,41.1,Y,Monaro_F_Madona,NSW_Monaro
+956000005340446_Kenny,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,29/09/2020,Blood,M,NSW,Snowy Monaro,Numeralla,Numeralla,1,M_Kenny_Monaro,49.3,Y,Monaro_M_Kenny,NSW_Monaro
+956000005341166_Sage,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,28/09/2020,Blood,F,NSW,Snowy Monaro,Peak View,Numeralla,1,F_Sage_Monaro,34.3,Y,Monaro_F_Sage,NSW_Monaro
+956000005345671_CS,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,29/09/2020,Blood,F,NSW,Snowy Monaro,Numeralla,Numeralla,1,F_CS_Monaro,31.6,Y,Monaro_F_CS,NSW_Monaro
+956000005345885_Xavier,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,22/07/2020,Blood,M,NSW,Snowy Monaro,Numeralla,Numeralla,1,M_Xavier_Monaro,29.2,Y,Monaro_M_Xavier,NSW_Monaro
+956000005346877_Drew,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,27/09/2020,Blood,M,NSW,Snowy Monaro,Peak View,Numeralla,1,M_Drew_Monaro,31.8,Y,Monaro_M_Drew,NSW_Monaro
+956000005352956_Annie,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,4/07/2020,Blood,F,NSW,Snowy Monaro,Numeralla,Numeralla,1,F_Annie_Monaro,43.5,Y,Monaro_F_Annie,NSW_Monaro
+956000005359444_Bronwen,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,24/07/2020,Blood,F,NSW,Snowy Monaro,Peak View,Numeralla,1,F_Bron_Monaro,33.4,Y,Monaro_F_Bron,NSW_Monaro
+956000005361231_Alex,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,5/07/2020,Blood,F,NSW,Snowy Monaro,Numeralla,Numeralla,1,F_Alex_Monaro,37.4,Y,Monaro_F_Alex,NSW_Monaro
+956000005361295_Mia,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,4/07/2020,Blood,F,NSW,Snowy Monaro,Numeralla,Numeralla,1,F_Mia_Monaro,30.8,Y,Monaro_F_Mia,NSW_Monaro
+956000005361780_Brandy,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,4/07/2020,Blood,F,NSW,Snowy Monaro,Numeralla,Numeralla,1,F_Brandy_Monaro,37.2,Y,Monaro_F_Brandy,NSW_Monaro
+956000005368574_Jett,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,6/07/2020,Blood,M,NSW,Snowy Monaro,Peak View,Numeralla,1,M_Jett_Monaro,29.2,Y,Monaro_M_Jett,NSW_Monaro
+956000005369981_Evan,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,28/09/2020,Blood,M,NSW,Snowy Monaro,Peak View,Numeralla,1,M_Evan_Monaro,36.4,Y,Monaro_M_Evan,NSW_Monaro
+956000005373289_Murray,Karen Marsh,karen.marsh@anu.edu.au,Environment Energy & Science Animal Ethics # 200421/04; Research Approval # DOC20/500625,22/07/2020,Blood,M,NSW,Snowy Monaro,Numeralla,Numeralla,1,M_Murray_Monaro,38.3,Y,Monaro_M_Murray,NSW_Monaro
+M.48896.005,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,9/10/2017,Muscle,F,NSW,Sutherland,Royal National Park,South West Sydney,3,SWSyd_F_M48896,36.6,Y,SWSyd_F_M48896,NSW_Sutherland
+61949,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,10/07/2015,Ear biopsy,M,NSW,Tenterfield,TENTERFIELD,No ARK,8,Tenter_M_61949,30.6,Y,Tenterfield_M_61949,NSW_Tenterfield
+53390,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,27/05/2014,Ear biopsy,M,NSW,Tweed,Pottsville,Tweed Coast,6,Tweed_M_53390,22.2,Y,Tweed_Heads_M_53390,NSW_Tweed_Heads
+57043,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,27/03/2015,Ear biopsy,M,NSW,Tweed,Murwillumbah,Tweed Coast,6,Tweed_M_57043,30.6,Y,Tweed_Heads_M_57043,NSW_Tweed_Heads
+M.50445.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,4/11/2017,Ear biopsy,F,NSW,Tweed,Tweed,Tweed Coast,6,Tweed_F_M50445,31.6,Y,Tweed_Heads_F_M50445,NSW_Tweed_Heads
+M.47035.001,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Blood,M,NSW,Warrumbungle,Warrumbungle,Pilliga,4,Pillig_M_M47035,33.8,Y,Pilliga_M_M47035,NSW_Warrumbungle
+M.47418.002,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,12/12/1997,Blood,F,NSW,Warrumbungle,Dandry,Pilliga,4,Pillig_F_M47418,40.1,Y,Pilliga_F_M47418,NSW_Warrumbungle
+M.47420.002,Australian Museum Frozen Tissue Collection ,Tissue@Australian.Museum,SL100582,,Blood,M,NSW,Warrumbungle,Coonabarabran,Pilliga,4,Pillig_M_M47420,38.1,Y,Pilliga_M_M47420,NSW_Warrumbungle
+0006D153EC_Walter,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,21/10/2017,Ear biopsy,M,NSW,Wingecaribee,Macquarie Pass,Bungonia,1,M_Walter_STHD,27.5,Y,STHD_M_Walter,NSW_Wingecaribee
+7CE391F_Hapi,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,23/02/2021,Ear biopsy,F,NSW,Wingecaribee,Avon,Bungonia,1,F_Hapi_STHD,45.1,Y,STHD_F_Hapi,NSW_Wingecaribee
+956000005777523_JimmyBarnes,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,2/10/2019,Ear biopsy,M,NSW,Wingecaribee,Mount Lindsey,Bungonia,1,M_Jimmy B_STHD,31.9,Y,STHD_M_Jimmy-B,NSW_Wingecaribee
+956000005777709_Beyonce,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,2/10/2019,Ear biopsy,F,NSW,Wingecaribee,Mittagong,Bungonia,1,F_Beyonce_STHD,29.3,Y,STHD_F_Beyonce,NSW_Wingecaribee
+956000005796876_AnnieLennox,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,4/10/2019,Ear biopsy,F,NSW,Wingecaribee,Mittagong,Bungonia,1,F_Annie L_STHD,41.5,Y,STHD_F_Annie-L,NSW_Wingecaribee
+956000009448205_Bunzi,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,22/02/2021,Ear biopsy,F,NSW,Wingecaribee,Mittagong,Bungonia,1,F_Bunzi_STHD,41.2,Y,STHD_F_Bunzi,NSW_Wingecaribee
+956000009459445_Chaac,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,22/02/2021,Ear biopsy,M,NSW,Wingecaribee,Mittagong,Bungonia,1,M_Chaac_STHD,31.2,Y,STHD_M_Chaac,NSW_Wingecaribee
+956000009499521_StevieNicks,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,12/05/2019,Ear biopsy,F,NSW,Wingecaribee,Belanglo,Bungonia,1,F_Stevie N_STHD,40.1,Y,STHD_F_Stevie-N,NSW_Wingecaribee
+0006E4C0C7_Yara,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,20/03/2018,Ear biopsy,F,NSW,Wollondilly,Appin,Bungonia,1,F_Yara_STHD,37.5,Y,STHD_F_Yara,NSW_Wollondilly
+0006E4D28B_Rhaegar,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,12/10/2017,Ear biopsy,M,NSW,Wollondilly,Appin,Bungonia,1,M_Rhaegar_STHD,35.5,Y,STHD_M_Rhaegar,NSW_Wollondilly
+0006E4DBC4_Qyburn,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,10/10/2017,Ear biopsy,M,NSW,Wollondilly,Appin,Bungonia,1,M_Qyburn_STHD,60.7,Y,STHD_M_Qyburn,NSW_Wollondilly
+0006E4EED3_Varys,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,19/10/2017,Ear biopsy,M,NSW,Wollondilly,Wilton,Bungonia,1,M_Varys_STHD,26.4,Y,STHD_M_Varys,NSW_Wollondilly
+956000005350055_Brienne,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,13/04/2017,Ear biopsy,F,NSW,Wollondilly,Appin,Bungonia,1,F_Brienne_STHD,31.7,Y,STHD_F_Brienne,NSW_Wollondilly
+956000005776454_OliviaNewtonJohn,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,30/09/2019,Ear biopsy,F,NSW,Wollondilly,Appin,Bungonia,1,F_Liv NJ_STHD,32.7,Y,STHD_F_Liv-NJ,NSW_Wollondilly
+956000006064264_FaliaFlowers,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,19/04/2017,Ear biopsy,F,NSW,Wollondilly,Yerrinbool,Bungonia,1,F_Falia F_STHD,30.7,Y,STHD_F_Falia-F,NSW_Wollondilly
+956000006064364_Arya,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,10/04/2017,Ear biopsy,F,NSW,Wollondilly,Appin,Bungonia,1,F_Arya_STHD,27,Y,STHD_F_Arya,NSW_Wollondilly
+956000006291640_Daenerys,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,18/04/2017,Ear biopsy,F,NSW,Wollondilly,Wilton,Bungonia,1,F_Daenery_STHD,24.2,Y,STHD_F_Daenery,NSW_Wollondilly
+956000006294585_Gendry,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,19/04/2017,Ear biopsy,M,NSW,Wollondilly,Yerrinbool,Bungonia,1,M_Gendry_STHD,30.3,Y,STHD_M_Gendry,NSW_Wollondilly
+956000006302700_Clegane,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,13/04/2017,Ear biopsy,M,NSW,Wollondilly,Appin,Bungonia,1,M_Clegane_STHD,28.9,Y,STHD_M_Clegane,NSW_Wollondilly
+StJames,Lachlan Wilmott,Lachlan.Wilmott@environment.nsw.gov.au,201020/04; 190723/04; SL101508,15/06/2018,Ear biopsy,M,NSW,Wollondilly,Appin,Bungonia,1,M_St james_STHD,37.7,Y,STHD_M_St-james,NSW_Wollondilly
+51032,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,26/02/2014,Ear biopsy,F,QLD,Fraser Coast,GLENWOOD,,5,FCoast_F_51032,16.9,Y,Fraser_Coast_F_51032,QLD_Fraser_Coast
+57909,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,1/10/2015,Ear biopsy,U,QLD,Fraser Coast,MARYBOROUGH,,3,Fraser_U_57909,15.9,Y,Fraser_Coast_U_57909,QLD_Fraser_Coast
+61304,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,9/03/2015,Ear biopsy,M,QLD,Fraser Coast,MARYBOROUGH,,5,FCoast_M_61304,22,Y,Fraser_Coast_M_61304,QLD_Fraser_Coast
+61459,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,19/10/2015,Ear biopsy,M,QLD,Fraser Coast,GUNDIAH,,5,FCoast_M_61459,24.3,Y,Fraser_Coast_M_61459,QLD_Fraser_Coast
+72461,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,6/12/2017,Ear biopsy,F,QLD,Fraser Coast,TINANA,,3,Fraser_F_72461,30.9,Y,Fraser_Coast_F_72461,QLD_Fraser_Coast
+72855,Amber Gillet,amber@wildlifewarriors.org.au,CA 2020/08/1400,16/07/2017,Ear biopsy,M,QLD,Fraser Coast,Tinana,,7,Fraser_M_72855,20,Y,Fraser-Coast_M_72855,QLD_Fraser_Coast
+77266,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,5/08/2018,Ear biopsy,M,QLD,Fraser Coast,TINANA,,3,Fraser_M_77266,22.3,Y,Fraser_Coast_M_77266,QLD_Fraser_Coast
+79972,Amber Gillet,amber@wildlifewarriors.org.au,CA 2020/08/1400,27/08/2018,Ear biopsy,M,QLD,Fraser Coast,Tinana,,7,Fraser_M_79972,29.1,Y,Fraser-Coast_M_79972,QLD_Fraser_Coast
+87546,Amber Gillet,amber@wildlifewarriors.org.au,CA 2020/08/1400,7/08/2019,Ear biopsy,M,QLD,Fraser Coast,Booral,,7,Fraser_M_87546,29.9,Y,Fraser-Coast_M_87546,QLD_Fraser_Coast
+93594,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,19/01/2020,Ear biopsy,M,QLD,Fraser Coast,HERVEY BAY,,5,FCoast_M_93594,34.5,Y,Fraser_Coast_M_93594,QLD_Fraser_Coast
+54909,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,10/12/2014,Ear biopsy,F,QLD,Gold Coast,MOUNT NATHAN,,5,GCoast_F_54909,22.7,Y,Gold_Coast_F_54909,QLD_Gold_Coast
+54910,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,11/08/2014,Ear biopsy,M,QLD,Gold Coast,SOUTHPORT,,5,GCoast_M_54910,22,Y,Gold_Coast_M_54910,QLD_Gold_Coast
+54980,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,28/08/2014,Ear biopsy,M,QLD,Gold Coast,AUSTINVILLE,,5,GCoast_M_54980,29.4,Y,Gold_Coast_M_54980,QLD_Gold_Coast
+56090,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,25/01/2015,Ear biopsy,M,QLD,Gold Coast,ARUNDEL,,5,GCoast_M_56090,23.4,Y,Gold_Coast_M_56090,QLD_Gold_Coast
+61808,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,20/11/2015,Ear biopsy,M,QLD,Gold Coast,NUMINBAH VALLEY,,5,GCoast_M_61808,21.9,Y,Gold_Coast_M_61808,QLD_Gold_Coast
+62309,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,26/10/2015,Ear biopsy,M,QLD,Gold Coast,LABRADOR,,5,GCoast_M_62309,22.6,Y,Gold_Coast_M_62309,QLD_Gold_Coast
+66922,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,15/11/2016,Ear biopsy,M,QLD,Gold Coast,CURRUMBIN VALLEY,,5,GCoast_M_66922,24.9,Y,Gold_Coast_M_66922,QLD_Gold_Coast
+70414,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,9/08/2017,Ear biopsy,M,QLD,Gold Coast,CURRUMBIN,,5,GCoast_M_70414,24.9,Y,Gold_Coast_M_70414,QLD_Gold_Coast
+71441,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,16/07/2017,Ear biopsy,M,QLD,Gold Coast,MUDGEERABA,,5,GCoast_M_71441,26.9,Y,Gold_Coast_M_71441,QLD_Gold_Coast
+73511,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,19/10/2017,Ear biopsy,F,QLD,Gold Coast,ADVANCETOWN,,5,GCoast_F_73511,24,Y,Gold_Coast_F_73511,QLD_Gold_Coast
+78719,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,6/06/2018,Ear biopsy,M,QLD,Gold Coast,CLAGIRABA,,5,GCoast_M_78719,27.1,Y,Gold_Coast_M_78719,QLD_Gold_Coast
+84814,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,4/02/2020,Ear biopsy,M,QLD,Gold Coast,TALLEBUDGERA,,5,GCoast_M_84814,32.7,Y,Gold_Coast_M_84814,QLD_Gold_Coast
+82257,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,11/09/2018,Ear biopsy,F,QLD,Gympie,GOOMERI,,3,Gympie_F_82257,30.8,Y,Gympie_F_82257,QLD_Gympie
+87743,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,23/09/2019,Ear biopsy,M,QLD,Gympie,GILLDORA,,3,Gympie_M_87743,29.6,Y,Gympie_M_87743,QLD_Gympie
+92626,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,2/10/2020,Ear biopsy,F,QLD,Gympie,KILKIVAN,,3,Gympie_F_92626,36.3,Y,Gympie_F_92626,QLD_Gympie
+93216,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,1/09/2020,Ear biopsy,F,QLD,Gympie,DAGUN,,3,Gympie_F_93216,30.8,Y,Gympie_F_93216,QLD_Gympie
+93694,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,22/01/2020,Ear biopsy,F,QLD,Gympie,GOOMBOORIAN,,3,Gympie_F_93694,33.4,Y,Gympie_F_93694,QLD_Gympie
+95464,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,30/03/2020,Ear biopsy,M,QLD,Gympie,AMAMOOR,,3,Gympie_M_95464,30.2,Y,Gympie_M_95464,QLD_Gympie
+54945,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,13/09/2014,Ear biopsy,F,QLD,Livingstone,MARLBOROUGH,,5,LivSton_F_54945,22.2,Y,Livingstone_F_54945,QLD_Livingstone
+63479,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,18/04/2016,Ear biopsy,F,QLD,Mackay,SARINA,,5,Mackay_F_63479,31.8,Y,Mackay_F_63479,QLD_Mackay
+117_Dazza,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,M,QLD,Moreton Bay,Lawnton,,1,M_Dazza_MBR,54.2,Y,MBR_M_Dazza,QLD_Moreton_Bay_Region
+15_Julia,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Kallangur,,1,F_Julia_MBR,57.1,Y,MBR_F_Julia,QLD_Moreton_Bay_Region
+16_CoCo,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Kallangur,,1,F_Coco_MBR,42.1,Y,MBR_F_Coco,QLD_Moreton_Bay_Region
+173_TamaraO,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Kippa-Ring,,1,F_Tamara O_MBR,42.9,Y,MBR_F_Tamara-O,QLD_Moreton_Bay_Region
+198_Josie,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Rothwell,,1,F_Josie_MBR,42.2,Y,MBR_F_Josie,QLD_Moreton_Bay_Region
+21_TheHoff,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Kallangur,,1,F_The Hoff_MBR,44.2,Y,MBR_F_The-Hoff,QLD_Moreton_Bay_Region
+23_Bubbles,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Kippa-Ring,,1,F_Bubbles_MBR,48.3,Y,MBR_F_Bubbles,QLD_Moreton_Bay_Region
+3_Andrew,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,M,QLD,Moreton Bay,Mango Hill,,1,M_Andrew_MBR,44.6,Y,MBR_M_Andrew,QLD_Moreton_Bay_Region
+317_Jadore,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Griffin,,1,F_Jadore_MBR,48.7,Y,MBR_F_Jadore,QLD_Moreton_Bay_Region
+4_Doddy,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,M,QLD,Moreton Bay,Mango Hill,,1,M_Doddy_MBR,43.7,Y,MBR_M_Doddy,QLD_Moreton_Bay_Region
+458_Bobby,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,M,QLD,Moreton Bay,Kallangur,,1,M_Bobby_MBR,66.8,Y,MBR_M_Bobby,QLD_Moreton_Bay_Region
+468_Lana,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Kallangur,,1,F_Lana_MBR,31.6,Y,MBR_F_Lana,QLD_Moreton_Bay_Region
+484_Tanja,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Rothwell,,1,F_Tanja _MBR,59.3,Y,MBR_F_Tanja,QLD_Moreton_Bay_Region
+515_Millie,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Petrie,,1,F_Millie_MBR,44.3,Y,MBR_F_Millie,QLD_Moreton_Bay_Region
+523_Branson,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,M,QLD,Moreton Bay,Kallangur,,1,M_Branson _MBR,66.6,Y,MBR_M_Branson,QLD_Moreton_Bay_Region
+524_Rizzo,Peter Timms,ptimms@usc.edu.au,"QLD Dept Ag & Fisheries CA2012/03/597, CA2013/09/719, CA2015/03/852, CA2016/03/950",,Blood,F,QLD,Moreton Bay,Murrumba Downs,,1,F_Rizzo_MBR,63,Y,MBR_F_Rizzo,QLD_Moreton_Bay_Region
+49880,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,16/10/2013,Ear biopsy,M,QLD,Noosa,RIDGEWOOD,,3,Noosa_M_49880,31.6,Y,Noosa_M_49880,QLD_Sunshine_Coast
+65657,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,14/05/2016,Ear biopsy,F,QLD,Noosa,TINBEERWAH,,3,Noosa_F_65657,17.6,Y,Noosa_F_65657,QLD_Sunshine_Coast
+70593,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,13/02/2017,Ear biopsy,F,QLD,Noosa,PEREGIAN BEACH,,3,Noosa_F_70593,25.4,Y,Noosa_F_70593,QLD_Sunshine_Coast
+74009,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,23/09/2017,Ear biopsy,F,QLD,Noosa,NOOSAVILLE,,3,Noosa_F_74009,25.3,Y,Noosa_F_74009,QLD_Sunshine_Coast
+79211,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,18/08/2018,Ear biopsy,M,QLD,Noosa,TEWANTIN,,3,Noosa_M_79211,29.2,Y,Noosa_M_79211,QLD_Sunshine_Coast
+79303,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,30/06/2018,Ear biopsy,F,QLD,Noosa,NOOSA HEADS,,3,Noosa_F_79303,32.4,Y,Noosa_F_79303,QLD_Sunshine_Coast
+79763,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,30/07/2018,Ear biopsy,M,QLD,Noosa,POMONA,,3,Noosa_M_79763,30.2,Y,Noosa_M_79763,QLD_Sunshine_Coast
+55989,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,30/10/2014,Ear biopsy,M,QLD,North Burnett,MOUNT PERRY,,5,NthBurn_M_55989,25.2,Y,North_Burnett_M_55989,QLD_North_Burnett
+72194,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,23/06/2017,Ear biopsy,F,QLD,North Burnett,GAYNDAH,,5,NthBurn_F_72194,24.1,Y,North_Burnett_F_72194,QLD_North_Burnett
+73175,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,9/06/2017,Ear biopsy,M,QLD,North Burnett,MONTO,,5,NthBurn_M_73175,31.1,Y,North_Burnett_M_73175,QLD_North_Burnett
+87227,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,31/07/2019,Ear biopsy,F,QLD,North Burnett,GAYNDAH,,5,NthBurn_F_87227,30.7,Y,North_Burnett_F_87227,QLD_North_Burnett
+63768,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,20/04/2016,Ear biopsy,M,QLD,Redland,AMITY,,5,Redland_M_63768,13.7,Y,Redland_M_63768,QLD_Redland
+71818,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,3/01/2018,Ear biopsy,M,QLD,Redland,DUNWICH,,5,Redland_M_71818,26.1,Y,Redland_M_71818,QLD_Redland
+83962,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,23/04/2019,Ear biopsy,M,QLD,Redland,POINT LOOKOUT,,5,Redland_M_83962,33.8,Y,Redland_M_83962,QLD_Redland
+94829,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,28/02/2020,Ear biopsy,F,QLD,Redland,BIRKDALE,,5,Redland_F_94829,29.6,Y,Redland_F_94829,QLD_Redland
+95776,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,15/04/2020,Ear biopsy,F,QLD,Redland,MOUNT COTTON,,5,Redland_F_95776,32.4,Y,Redland_F_95776,QLD_Redland
+2018120_Claire,Lyndal Husle,l.hulse@uq.edu.au,DAF CA 2016/03/950,,Ear biopsy,F,QLD,Somerset,Hidden Vale,,7,HVale_F_Claire,27.9,Y,Hidden-Vale_F_Claire,QLD_Somerset
+Shamala,Lyndal Husle,l.hulse@uq.edu.au,DAF CA 2016/03/950,,Ear biopsy,F,QLD,Somerset,Hidden Vale,,7,HVale_F_Shamala,32.5,Y,Hidden-Vale_F_Shamala,QLD_Somerset
+53159,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,20/04/2014,Ear biopsy,M,QLD,South Burnett,BYEE,,5,SthBurn_M_53159,24.1,Y,South_Burnett_M_53159,QLD_South_Burnett
+65901,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,6/04/2016,Ear biopsy,M,QLD,South Burnett,GOODGER,,5,SthBurn_M_65901,25.4,Y,South_Burnett_M_65901,QLD_South_Burnett
+80665,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,19/09/2018,Ear biopsy,M,QLD,South Burnett,BLACKBUTT,,5,SthBurn_M_80665,33.2,Y,South_Burnett_M_80665,QLD_South_Burnett
+85725,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,15/03/2019,Ear biopsy,F,QLD,South Burnett,PROSTON,,5,SthBurn_F_85725,27.2,Y,South_Burnett_F_85725,QLD_South_Burnett
+86009,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,4/03/2019,Ear biopsy,F,QLD,South Burnett,NANANGO,,5,SthBurn_F_86009,33.8,Y,South_Burnett_F_86009,QLD_South_Burnett
+86231,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,4/11/2019,Ear biopsy,F,QLD,South Burnett,KINGAROY,,5,SthBurn_F_86231,32.4,Y,South_Burnett_F_86231,QLD_South_Burnett
+86628,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,5/04/2019,Ear biopsy,F,QLD,South Burnett,WOOROOLIN,,5,SthBurn_F_86628,31.6,Y,South_Burnett_F_86628,QLD_South_Burnett
+86919,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,22/05/2019,Ear biopsy,F,QLD,South Burnett,MURGON,,5,SthBurn_F_86919,33.7,Y,South_Burnett_F_86919,QLD_South_Burnett
+93286,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,1/11/2020,Ear biopsy,F,QLD,South Burnett,INVERLAW,,5,SthBurn_F_93286,34.7,Y,South_Burnett_F_93286,QLD_South_Burnett
+95162,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,14/03/2020,Ear biopsy,F,QLD,South Burnett,RUNNYMEDE,,5,SthBurn_F_95162,29.6,Y,South_Burnett_F_95162,QLD_South_Burnett
+62050,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,10/10/2015,Ear biopsy,F,QLD,Southern Downs,STANTHORPE,,5,SDowns_F_62050,25.6,Y,Southern_Downs_F_62050,QLD_Southern_Downs
+76877,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,24/08/2018,Ear biopsy,M,QLD,Sunshine Coast,BLI BLI,,6,SuCoast_M_76877,31.7,Y,Sunshine_Coast_M_76877,QLD_Sunshine_Coast
+79598,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,26/08/2018,Ear biopsy,F,QLD,Sunshine Coast,CONONDALE,,6,SuCoast_M_79598,31.6,Y,Sunshine_Coast_M_79598,QLD_Sunshine_Coast
+79817,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,8/07/2018,Ear biopsy,M,QLD,Sunshine Coast,KENILWORTH,,6,SuCoast_M_79817,31.4,Y,Sunshine_Coast_M_79817,QLD_Sunshine_Coast
+86054,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,4/01/2019,Ear biopsy,M,QLD,Sunshine Coast,MONTVILLE,,6,SuCoast_M_86054,30.2,Y,Sunshine_Coast_M_86054,QLD_Sunshine_Coast
+Atherton,Amy Shima,dvmshima@gmail.com,DAF CA 2021/11/1562,5/02/2022,Ear biopsy,M,QLD,Tablelands,Atherton,,7,Atherton_M,31.5,Y,Atherton_M,QLD_Tablelands
+K2,Amy Shima,dvmshima@gmail.com,DAF CA 2021/11/1562,5/18/2022,Ear biopsy,M,QLD,Tablelands,Gilberton,,9,FarNorthQLD_K2,32.7,,FarNorthQLD_K2,QLD_Tablelands
+K3,Amy Shima,dvmshima@gmail.com,DAF CA 2021/11/1562,5/19/2022,Ear biopsy,M,QLD,Tablelands,Gilberton,,9,FarNorthQLD_K3,32.3,,FarNorthQLD_K3,QLD_Tablelands
+55522,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,16/09/2014,Ear biopsy,F,QLD,Toowoomba,Goombungee,,6,Toowoo_F_55522,26.9,Y,Toowoomba_F_55522,QLD_Toowoomba
+58076,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,25/09/2015,Ear biopsy,M,QLD,Toowoomba,Mount Tyson,,6,Toowoo_F_58076,29.8,Y,Toowoomba_F_58076,QLD_Toowoomba
+58264,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,25/02/2015,Ear biopsy,F,QLD,Toowoomba,GREENMOUNT,,3,Toowoo_F_58264,24.3,Y,Toowoomba_F_58264,QLD_Toowoomba
+70978,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,4/09/2017,Ear biopsy,F,QLD,Toowoomba,Ravensbourne,,6,Toowoo_F_70978,33,Y,Toowoomba_F_70978,QLD_Toowoomba
+72310,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,15/06/2017,Ear biopsy,M,QLD,Toowoomba,Irvingdale,,6,Toowoo_M_72310,29.6,Y,Toowoomba_M_72310,QLD_Toowoomba
+74526,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,21/10/2017,Ear biopsy,M,QLD,Toowoomba,Haden,,6,Toowoo_F_74526,29.6,Y,Toowoomba_F_74526,QLD_Toowoomba
+79192,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,21/06/2018,Ear biopsy,M,QLD,Toowoomba,Kleinton,,6,Toowoo_F_79192,31.7,Y,Toowoomba_F_79192,QLD_Toowoomba
+79193,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,26/12/2018,Ear biopsy,F,QLD,Toowoomba,HAMPTON,,3,Toowoo_F_79193,26,Y,Toowoomba_F_79193,QLD_Toowoomba
+79503,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,13/07/2018,Ear biopsy,M,QLD,Toowoomba,Oakey,,6,Toowoo_F_79503,30.3,Y,Toowoomba_F_79503,QLD_Toowoomba
+86343,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,19/04/2019,Ear biopsy,F,QLD,Toowoomba,Jondaryan,,6,Toowoo_F_86343,31.3,Y,Toowoomba_F_86343,QLD_Toowoomba
+87937,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,8/01/2019,Ear biopsy,F,QLD,Toowoomba,Toowoomba,,6,Toowoo_F_87937,31.5,Y,Toowoomba_F_87937,QLD_Toowoomba
+92545,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,27/06/2020,Ear biopsy,F,QLD,Toowoomba,Whicello,,6,Toowoo_F_92545,30.5,Y,Toowoomba_F_92545,QLD_Toowoomba
+55372,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,17/09/2014,Ear biopsy,F,QLD,Western Downs,TARA,,5,WDowns_F_55372,25.4,Y,Western_Downs_F_55372,QLD_Western_Downs
+70143,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,17/01/2017,Ear biopsy,F,QLD,Western Downs,HANNAFORD,,5,WDowns_F_70143,22.4,Y,Western_Downs_F_70143,QLD_Western_Downs
+70719,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,21/02/2017,Ear biopsy,F,QLD,Western Downs,DALBY,,3,WDowns_F_70719,27.5,Y,Western_Downs_F_70719,QLD_Western_Downs
+70754,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,25/02/2017,Ear biopsy,M,QLD,Western Downs,DALBY,,5,WDowns_M_70754,27.9,Y,Western_Downs_M_70754,QLD_Western_Downs
+75384,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,20/07/2018,Ear biopsy,M,QLD,Western Downs,DALBY,,3,WDowns_M_75384,27,Y,Western_Downs_M_75384,QLD_Western_Downs
+82321,Amber Gillett,amber@wildlifewarriors.org.au,CA 2020/08/1400,11/12/2018,Ear biopsy,F,QLD,Western Downs,JANDOWAE,,3,WDowns_F_82321,33.2,Y,Western_Downs_F_82321,QLD_Western_Downs
+ET yellow 32,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,F,VIC,Cape Otway,,,4,COtway_F_Y32,31.5,Y,Cape_Otway_F_Y32,VIC_Colac_Otway
+ET yellow 37,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,F,VIC,Cape Otway,,,4,COtway_F_Y37,34.1,Y,Cape_Otway_F_Y37,VIC_Colac_Otway
+ET yellow 40,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,M,VIC,Cape Otway,,,4,COtway_M_Y40,35.4,Y,Cape_Otway_M_Y40,VIC_Colac_Otway
+ET yellow 49,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,F,VIC,Cape Otway,,,4,COtway_F_Y49,29.9,Y,Cape_Otway_F_Y49,VIC_Colac_Otway
+ET yellow 60,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,F,VIC,Cape Otway,,,4,COtway_F_Y60,31.8,Y,Cape_Otway_F_Y60,VIC_Colac_Otway
+SAWS21,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,12/12/2011,Ear biopsy,F,VIC,French Island,French Island,,1,F_SAWS21_FRIS,30.3,Y,FRIS_F_SAWS21,VIC_French_Island
+SAWS22,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,8/03/2013,Ear biopsy,M,VIC,French Island,French Island,,1,M_SAWS22_FRIS,30.3,Y,FRIS_M_SAWS22,VIC_French_Island
+K11,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/10/2021,Ear biopsy,F,VIC,Gelantipy,Butchers Creek,,4,Gelantipy_F_K11,36.5,Y,Gelantipy_F_K11,VIC_East_Gippsland
+K12,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/10/2021,Ear biopsy,M,VIC,Gelantipy,Currie Creek,,4,Gelantipy_M_K12,40.1,Y,Gelantipy_M_K12,VIC_East_Gippsland
+K13,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/10/2021,Ear biopsy,F,VIC,Gelantipy,Currie Creek,,4,Gelantipy_F_K13,36.3,Y,Gelantipy_F_K13,VIC_East_Gippsland
+K14,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/10/2021,Ear biopsy,M,VIC,Gelantipy,Barwick's Road,,4,Gelantipy_M_K14,32.7,Y,Gelantipy_M_K14,VIC_East_Gippsland
+K15,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/10/2021,Ear biopsy,F,VIC,Gelantipy,Barwick's Road,,4,Gelantipy_F_K15,37.7,Y,Gelantipy_F_K15,VIC_East_Gippsland
+K16,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/10/2021,Ear biopsy,F,VIC,Gelantipy,Barwick's Road South,,4,Gelantipy_F_K16,40.1,Y,Gelantipy_F_K16,VIC_East_Gippsland
+K17,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,12/10/2021,Ear biopsy,F,VIC,Gelantipy,Bush Nursing Centre,,4,Gelantipy_F_K17,38.8,Y,Gelantipy_F_K17,VIC_East_Gippsland
+K18,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,13/10/2021,Ear biopsy,F,VIC,Gelantipy,Barwick's Road,,4,Gelantipy_F_K18,32.9,Y,Gelantipy_F_K18,VIC_East_Gippsland
+K19,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,13/10/2021,Ear biopsy,M,VIC,Gelantipy,HaHa Creek,,4,Gelantipy_M_K19,37.9,Y,Gelantipy_M_K19,VIC_East_Gippsland
+K20,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,13/10/2021,Ear biopsy,F,VIC,Gelantipy,HaHa Creek,,4,Gelantipy_F_K20,33.5,Y,Gelantipy_F_K20,VIC_East_Gippsland
+K5,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,11/10/2021,Ear biopsy,M,VIC,Gelantipy,Karoonda Park,,4,Gelantipy_M_K5,39.1,Y,Gelantipy_M_K5,VIC_East_Gippsland
+Z73841,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,M,VIC,Glenelg,Tyrendarra,,7,SWVic_M_Z73841,30.5,Y,South-West-Victoria_M_Z73841,VIC_Glenelg
+Z73845,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,F,VIC,Glenelg,Condah,,7,SWVic_F_Z73845,31.4,Y,South-West-Victoria_F_Z73845,VIC_Glenelg
+Z73856,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,M,VIC,Glenelg,Portland,,7,SWVic_M_Z73856,33,Y,South-West-Victoria_M_Z73856,VIC_Glenelg
+SAWS1,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,3/03/2013,Ear biopsy,M,VIC,Highlands,Aberfeldy,,1,M_SAWS01_HDS,40.6,Y,HDS_M_SAWS01,VIC_BawBaw
+SAWS12,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,3/12/2012,Ear biopsy,M,VIC,Highlands,Erica,,1,M_SAWS12_HDS,34.6,Y,HDS_M_SAWS12,VIC_BawBaw
+SAWS13,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,2/11/2014,Ear biopsy,F,VIC,Highlands,Erica,,1,F_SAWS13_HDS,27.6,Y,HDS_F_SAWS13,VIC_BawBaw
+SAWS9,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,3/04/2011,Ear biopsy,M,VIC,Highlands,Coopers Creek,,1,M_SAWS09_HDS,11.3,Y,HDS_M_SAWS09,VIC_BawBaw
+C00024_Vicky,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,27/03/2021,EDTA blood,U,VIC,Mallacoota,,,6,Malla_U_Vicky,30.9,Y,Mallacoota_U_Vicky,VIC_East_Gippsland
+C00040_Solo,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,4/01/2021,EDTA blood,U,VIC,Mallacoota,,,6,Malla_U_Solo,29.8,Y,Mallacoota_U_Solo,VIC_East_Gippsland
+C00053_Trip,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,6/01/2021,EDTA blood,U,VIC,Mallacoota,,,6,Malla_U_Trip,30.6,Y,Mallacoota_U_Trip,VIC_East_Gippsland
+C00055_BlinkyBill,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,4/01/2021,EDTA blood,U,VIC,Mallacoota,,,6,Malla_U_Blinky,31.3,Y,Mallacoota_U_Blinky,VIC_East_Gippsland
+C00092_Frankie,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,27/03/2021,EDTA blood,U,VIC,Mallacoota,,,6,Malla_U_Frankie,31.8,Y,Mallacoota_U_Frankie,VIC_East_Gippsland
+C00093_Abigail,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,5/01/2021,EDTA blood,U,VIC,Mallacoota,,,6,Malla_U_Abigail,32,Y,Mallacoota_U_Abigail,VIC_East_Gippsland
+C01163_Annie,Carolyn Hogg,carolyn.hogg@sydney.edu.au,,26/03/2021,EDTA blood,U,VIC,Mallacoota,,,6,Malla_U_Annie,29.6,Y,Mallacoota_U_Annie,VIC_East_Gippsland
+Female6,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/05/2022,Blood,F,VIC,Moira,Cobram,,9,MurRiv_F_F6,31.6,,Murray_River_F_F6,VIC_Moira
+Female8,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/06/2022,Blood,F,VIC,Moira,Cobram,,9,MurRiv_F_F8,31.7,,Murray_River_F_F8,VIC_Moira
+MR001,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/03/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR001,31.3,,Murray_River_M_MR001,VIC_Moira
+MR002,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/03/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR002,31.9,,Murray_River_M_MR002,VIC_Moira
+MR003,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/03/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR003,31.9,,Murray_River_M_MR003,VIC_Moira
+MR005,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/05/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR005,32.4,,Murray_River_M_MR005,VIC_Moira
+MR006,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/05/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR006,32.3,,Murray_River_M_MR006,VIC_Moira
+MR007,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/06/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR007,32.1,,Murray_River_M_MR007,VIC_Moira
+MR008,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/06/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR008,32.4,,Murray_River_M_MR008,VIC_Moira
+MR009,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/06/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR009,31.9,,Murray_River_M_MR009,VIC_Moira
+MR010,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/06/2022,Blood,M,VIC,Moira,Cobram,,9,MurRiv_M_MR010,32,,Murray_River_M_MR010,VIC_Moira
+UluphaFemaleA,Michaela Blyton,m.blyton@uq.edu.au,Victorian Permit No: 10010047 (12/8/21),5/03/2022,Blood,F,VIC,Moira,Cobram,,9,MurRiv_F_FA,32.9,,Murray_River_F_FA,VIC_Moira
+Z73848,Carolyn Hogg,carolyn.hogg@sydney.edu.au,10009969,,Ear biopsy,F,VIC,Moyne,Warrabkook,,7,SWVic_F_Z73848,32.1,Y,South-West-Victoria_F_Z73848,VIC_Moyne
+SAWS17,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,22/11/2011,Ear biopsy,M,VIC,South Gippsland,Fish Creek,,1,M_SAWS17_SHGLD,27.6,Y,SHGLD_M_SAWS17,VIC_South_Gippsland
+SAWS23,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,12/02/2011,Ear biopsy,F,VIC,South Gippsland,Golden Beach,,1,F_SAWS23_SHGLD,28.6,Y,SHGLD_F_SAWS23,VIC_South_Gippsland
+SAWS27,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,3/10/2014,Ear biopsy,M,VIC,South Gippsland,Gormandale,,1,M_SAWS27_SHGLD,34.4,Y,SHGLD_M_SAWS27,VIC_South_Gippsland
+SAWS29,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,24/02/2013,Ear biopsy,F?,VIC,South Gippsland,Hazelwood North,,4,Gipps_F_SAWS29,12.1,Y,Gippsland_F_SAWS29,VIC_South_Gippsland
+SAWS31,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,,Ear biopsy,F,VIC,South Gippsland,Jumbuck,,1,F_SAWS31_SHGLD,27.7,Y,SHGLD_F_SAWS31,VIC_South_Gippsland
+SAWS33,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,14/01/2013,Ear biopsy,M,VIC,South Gippsland,Leongatha,,1,M_SAWS33_SHGLD,29.3,Y,SHGLD_M_SAWS33,VIC_South_Gippsland
+SAWS34,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,,Ear biopsy,M,VIC,South Gippsland,Leongatha,,4,Gipps_M_SAWS34,23.6,Y,Gippsland_M_SAWS34,VIC_South_Gippsland
+SAWS41,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,,Ear biopsy,F,VIC,South Gippsland,Meeniyan,,4,Gipps_F_SAWS41,27.7,Y,Gippsland_F_SAWS41,VIC_South_Gippsland
+SAWS42,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,,Ear biopsy,M,VIC,South Gippsland,Meeniyan,,4,Gipps_M_SAWS42,22.9,Y,Gippsland_M_SAWS42,VIC_South_Gippsland
+SAWS43,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,30/04/2012,Ear biopsy,M,VIC,South Gippsland,Meeniyan,,4,Gipps_M_SAWS43,15.5,Y,Gippsland_M_SAWS43,VIC_South_Gippsland
+SAWS45,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,15/08/2009,Ear biopsy,F,VIC,South Gippsland,Mirboo North,,4,Gipps_F_SAWS45,15.8,Y,Gippsland_F_SAWS45,VIC_South_Gippsland
+SAWS63,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,30/07/2011,Ear biopsy,F,VIC,South Gippsland,Thorpdale,,4,Gipps_F_SAWS63,25.2,Y,Gippsland_F_SAWS63,VIC_South_Gippsland
+SAWS64,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,12/06/2014,Ear biopsy,M,VIC,South Gippsland,Thorpdale South,,4,Gipps_M_SAWS64,30.8,Y,Gippsland_M_SAWS64,VIC_South_Gippsland
+SAWS66,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,5/06/2013,Ear biopsy,F,VIC,South Gippsland,Trafalgar,,4,Gipps_F_SAWS66,25.5,Y,Gippsland_F_SAWS66,VIC_South_Gippsland
+SAWS67,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,7/09/2011,Ear biopsy,F,VIC,South Gippsland,Traralgon,,4,Gipps_F_SAWS67,29.7,Y,Gippsland_F_SAWS67,VIC_South_Gippsland
+SAWS69,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,,Ear biopsy,F,VIC,South Gippsland,Yarram,,4,Gipps_F_SAWS69,18.2,Y,Gippsland_F_SAWS69,VIC_South_Gippsland
+SAWS70,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,17/11/2011,Ear biopsy,M,VIC,South Gippsland,Yarram,,4,Gipps_M_SAWS70,26.5,Y,Gippsland_M_SAWS70,VIC_South_Gippsland
+SAWS71,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,20/06/2013,Ear biopsy,F,VIC,South Gippsland,Yinnar,,4,Gipps_F_SAWS71,26.4,Y,Gippsland_F_SAWS71,VIC_South_Gippsland
+SAWS72,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,17/01/2014,Ear biopsy,F,VIC,South Gippsland,Yinnar South,,4,Gipps_F_SAWS72,27.2,Y,Gippsland_F_SAWS72,VIC_South_Gippsland
+SAWS84,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,26/01/2015,Ear biopsy,M,VIC,South Gippsland,Gormandale,,4,Gipps_M_SAWS84,32.9,Y,Gippsland_M_SAWS84,VIC_South_Gippsland
+SAWS10,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,26/08/2006,Ear biopsy,F,VIC,Strathbogies,Creightons Creek,,1,F_SAWS10_SHBS,26.7,Y,SHBS_F_SAWS10,VIC_Strathbogies
+SAWS24,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,4/01/2008,Ear biopsy,M,VIC,Strathbogies,Gooram,,1,M_SAWS24_SHBS,25.4,Y,SHBS_M_SAWS24,VIC_Strathbogies
+SAWS3,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,25/04/2008,Ear biopsy,F,VIC,Strathbogies,Avenel,,1,F_SAWS03_SHBS,24.2,Y,SHBS_F_SAWS03,VIC_Strathbogies
+SAWS32,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,2/02/2009,Ear biopsy,M,VIC,Strathbogies,Kelvin View,,1,M_SAWS32_SHBS,22.4,Y,SHBS_M_SAWS32,VIC_Strathbogies
+SAWS37,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,12/06/2008,Ear biopsy,M,VIC,Strathbogies,Longwood,,1,M_SAWS37_SHBS,28.8,Y,SHBS_M_SAWS37,VIC_Strathbogies
+SAWS4,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,,Ear biopsy,F,VIC,Strathbogies,Benalla,,1,F_SAWS04_SHBS,16.6,Y,SHBS_F_SAWS04,VIC_Strathbogies
+SAWS5,Fiona Hogan,fiona.hogan@federation.edu.au,Ethics: 10006396,27/06/2014,Ear biopsy,M,VIC,Strathbogies,Bonnie Doon,,1,M_SAWS05_SHBS,36.7,Y,SHBS_M_SAWS05,VIC_Strathbogies

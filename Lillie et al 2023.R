@@ -3,23 +3,20 @@
 
 #### SETUP | dir - packaages ####
 setwd("/Users/metli609/Documents/PostDoc_UUJern/Koala 2/github/") 
-#require(dplyr)
+require(dplyr)
 require(data.table)
-#require(plyr)
-#require(StructuralVariantAnnotation)
-#require(VariantAnnotation)
+require(plyr)
+require(StructuralVariantAnnotation)
+require(VariantAnnotation)
 require(GenomicRanges) 
-#require(rtracklayer)
+require(rtracklayer)
 require(regioneR)
-#require(stringr)
-#require(RColorBrewer)
-#require(intansv)
+require(stringr)
+require(intansv)
 require(geodist)
-#require(pheatmap)
-#
 
-#
-#### binnedSum function: ####
+
+#### binnedSum  ####
 binnedSum <- function(bins, numvar, mcolname)
 {
   stopifnot(is(bins, "GRanges"))
@@ -117,21 +114,6 @@ ref.ervs.bed
 
 ref.ervs.bed.MST.granges <- toGRanges(ref.ervs.bed[,c(4,2,3)])
 
-
-#### KOALA REFERENCE | REPEATMASKER  ####
-## read in repeatmasker output for the koala reference genome
-ref.repeatmasker <- fread("./files/GCF_002099425.1_phaCin_unsw_v4.1_rm_eds.out")
-ref.repeatmasker <- ref.repeatmasker[3:nrow(ref.repeatmasker),]
-head(ref.repeatmasker)
-nrow(ref.repeatmasker) # 7814628
-names(ref.repeatmasker) <- c("chr", "start", "end", "rep.class", "rep.fam")
-ref.repeatmasker.range <- toGRanges(ref.repeatmasker)
-head(ref.repeatmasker.range)
-table(ref.repeatmasker.range$rep.fam)
-ref.repeatmasker.range.simplerepeats <- ref.repeatmasker.range[ref.repeatmasker.range$rep.fam == "Simple_repeat",]
-
-ref.repeatmasker.range.simplerepeats
-ref.repeatmasker.range.simplerepeats$locus <- paste(ref.repeatmasker.range.simplerepeats)
 
 
 

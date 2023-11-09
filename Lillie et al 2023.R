@@ -14,7 +14,8 @@ require(regioneR)
 require(stringr)
 require(intansv)
 require(geodist)
-
+require(pheatmap)
+require(RColorBrewer)
 
 #### binnedSum  ####
 binnedSum <- function(bins, numvar, mcolname)
@@ -58,15 +59,14 @@ head(erv.reference)
 # all the retrotector hits with score over 300
 erv.scaff.map.range <- toGRanges(erv.reference[,c("hitrefseq", "scaff.start", "scaff.end", "erv.id")])
 erv.scaff.map.range # 991
-length(unique(erv.scaff.map.range@seqnames)) # 279 scaffolds with retrotectored ervs
+# 279 scaffolds with retrotectored ervs
 
 
 
 ## read in file with details of the retrotector ervs used in the phylo and which clades they cluster into 
 erv.clades <- fread("./files/erv_clades.csv")
 erv.clades
-
-# nb: only 129; this is only based upon the pCi phylo from Lillie et al 2022 
+# nb: only 129; this is only based upon the pCi phylo from Lillie et al 2022 PNAS
 
 
 #### KOALA REFERENCE | ERVs curated ####
@@ -101,64 +101,39 @@ names(mcols(reference.erv.candidates.threeclades.final.MTS)) <- c("width", "numb
 
 
 
-ref.ervs.bed <- data.frame(chr=reference.erv.candidates.threeclades.final@seqnames, 
-                           start=reference.erv.candidates.threeclades.final@ranges@start - 1000, 
-                           end=reference.erv.candidates.threeclades.final@ranges@start + reference.erv.candidates.threeclades.final@ranges@width+999)
-ref.ervs.bed # 1000 bp up and downstream of locus
-#write.table(ref.ervs.bed, file="ref.ervs.bed", quote =F, row.names = F, col.names = F)
-
-ref.ervs.bed$otherchr <- contig.ref$genbank.accn[match(ref.ervs.bed$chr, contig.ref$refseq.accn)]
-ref.ervs.bed
-#write.table(ref.ervs.bed[,c(4,2,3)], file="ref.ervs.bed", quote =F, row.names = F, col.names = F, sep="\t")
-
-
-ref.ervs.bed.MST.granges <- toGRanges(ref.ervs.bed[,c(4,2,3)])
-
-
-
-
-#### RESEQ METADATA | downloaded AWS 2022/11/08 ####
+#### KOALA RESEQ METADATA | downloaded AWS 2022/11/08 ####
 # Sample data from latest release 2022/10/19 downloaded from AWS servers on 2022/11/08 
 awgg_metadata <- fread("./files/Koala_Metadata-19-10-2022.csv")
 names(awgg_metadata) <- gsub("\ ", "_", names(awgg_metadata))
-# where is Featherdale_M_46879?
-awgg_metadata[awgg_metadata$AWS_File_Name %like% "Featherdale_F_46879",]
-# need to correct
+# corrections to match sample names from bam processing
 awgg_metadata$AWS_File_Name[awgg_metadata$AWS_File_Name == "Featherdale_F_46879"] <- "Featherdale_M_46879"
-# where is Broadwater_M_50382? Is it supposed to be Broad_M_50328??
 awgg_metadata$AWS_File_Name[awgg_metadata$AWS_File_Name == "Broadwater_M_50328"] <- "Broadwater_M_50382"
+
 
 ## latitudes and longitudes for locations based on the names of folders
 ## csv with cols:
 ## AWS_Folder_Name latitude longitude
 awgg_locslatslons <- fread("./files/awggfolders_latslons.csv")
-awgg_locslatslons
+
+awgg_samples_wlat <- read.csv("./files/awgg_samples_wlat.csv")
 
 
-
-#### AWGG locations | pairwise distances between regions #### 
-awgg_locslatslons_prox <- awgg_locslatslons
-names(awgg_locslatslons_prox) <- c("AWS_Folder_Name", "lat", "lon")
-awgg_locslatslons_prox <- awgg_locslatslons_prox[awgg_locslatslons_prox$AWS_Folder_Name != "Captive",]
-geodist(awgg_locslatslons_prox, measure = "haversine")/1000
-# manually made awggnames.order.csv
 awgg.the.order.of.things <- fread("./files/awggnames.order.csv", header = F)
 names(awgg.the.order.of.things) <- "AWS_Folder_Name"
-awgg.the.order.of.things$AWS_Folder_Name
 
 
 
-#### RESEQ BAM COV | samtools depth #### 
+#### KOALA RESEQ BAM COV | samtools depth #### 
 ## read in file of bam sequencing coverage
 koala.cov <- fread("./files/awgg_koala_bams_reads.coverage", header = F)
-koala.cov
 names(koala.cov) <- c("sample", "cov")
 
 
 
 
 #### DELETIONS | load LUMPY results ####
-# lumpy deletions called on whole genome
+# data for this not provided on github // Mette Lillie 2023/11/09
+# lumpy deletions called on bams available on AWS 
 # need to load in lumpy, then subset by overlap with reference ervs 
 
 
@@ -262,6 +237,8 @@ lumpy.erv.loci.counts <- lumpy.erv.loci.counts[ranges(lumpy.erv.loci.counts) %in
 
 
 #### DELETIONS | load DELLY results ####
+# data for this not provided on github // Mette Lillie 2023/11/09
+# delly deletions called on bams available on AWS 
 # delly has already been subsetted by overlap with bed file: ref.ervs.bed (730 reference ervs with 1000 bp up and down stream regions)
 
 delly.intansv <- readDelly(file="./koalapop_dellygeno_regions.vcf", 
@@ -417,7 +394,9 @@ heatmap(lumpy.erv.loci.call.mat.cp)
 
 
 #### RETROSEQ | load vcfs ####
-## load retroseq vcfs and convert each into grange object
+# data for this not provided on github // Mette Lillie 2023/11/09
+# retroseq ran on bams available on AWS 
+# load retroseq vcfs and convert each into grange object
 koala.refgen.retroseq.vcfs <- paste("./retroseq_vcfs/", list.files(path = "./retroseq_vcfs/", 
                                                                    pattern = "*vcf"), sep = "")
 for (i in 1:length(koala.refgen.retroseq.vcfs)){
@@ -644,20 +623,228 @@ koala.fl8.clips2.adaptiveGQfilter.pad100red.filtered2 <- koala.fl8.clips2.adapti
 
 #### JOINED CALL #### 
 # manual curation to remove loci that were 0 counts across samples
-    # ensure all datasets from retroseq, lumpy and delly have the same names, in the same order 
     # remove delly loci that overlap with lumpy
-    # retroseq loci are retricted to those called for only ONE clade; add back in the loci that have two closely located integrations that have been visually confirmed
-#result is poly.ervs.joined.mat.fil2
-poly.ervs.joined.mat.fil2 <- fread("koala_polyERVs.csv") # 12990 loci used in analysis
-
-
-
-### 2023/11/07 Mette Lillie mette.lillie@ebc.uu.se
-
+    # retroseq loci are restricted to those called for only ONE clade
+    # retroseq loci that have two closely located integrations that have been visually confirmed and included in final dataset
+# result is koala_polyERVs_Lillie2023.csv
+poly.ervs.joined <- as.data.frame(fread("koala_polyERVs_Lillie2023.csv"))
+rownames(poly.ervs.joined) <- poly.ervs.joined$V1
+poly.ervs.joined$V1 <- NULL
 
 
 
 
 
+#### PLOTTING | figure 1 boxplots ####
 
+samples <- colnames(poly.ervs.joined)
+counts.ervgroups <- data.frame(samp=rep(samples, 3), count=NA, 
+                               group=c(rep("KoRVlike", length(samples)), rep("phaCinBeta", length(samples)), rep("phaCinBetalike",length(samples))))
+
+korvs <- poly.ervs.joined[rownames(poly.ervs.joined) %like% "KoRV",]
+phacinbetas <- poly.ervs.joined[rownames(poly.ervs.joined) %like%  "phaCinBeta" & !rownames(poly.ervs.joined) %like%  "phaCinBetalike" ,]
+phacinbetaslikes <- poly.ervs.joined[rownames(poly.ervs.joined) %like%  "phaCinBetalike",]
+
+for (i in 1:length(samples)){
+  counts.ervgroups$count[counts.ervgroups$samp == samples[i] & counts.ervgroups$group == "KoRVlike"] <- sum(korvs[,samples[i]], na.rm = T)
+  counts.ervgroups$count[counts.ervgroups$samp == samples[i] & counts.ervgroups$group == "phaCinBeta"] <- sum(phacinbetas[,samples[i]], na.rm = T)
+  counts.ervgroups$count[counts.ervgroups$samp == samples[i] & counts.ervgroups$group == "phaCinBetalike"] <- sum(phacinbetaslikes[,samples[i]], na.rm = T)
+}
+
+counts.ervgroups$cov <- koala.cov$cov[match(counts.ervgroups$samp , koala.cov$sample, )]
+counts.ervgroups$state <- awgg_metadata$State[match(counts.ervgroups$samp, awgg_metadata$AWS_File_Name)]
+counts.ervgroups$lat <- awgg_samples_wlat$lat[match(counts.ervgroups$samp, awgg_samples_wlat$samplenames)]
+counts.ervgroups$lon <- awgg_samples_wlat$lon[match(counts.ervgroups$samp, awgg_samples_wlat$samplenames)]
+
+## NB captives have no lat lon
+counts.ervgroups$location <- awgg_metadata$AWS_Folder_Name[match(counts.ervgroups$samp, awgg_metadata$AWS_File_Name)]
+
+# correct ERV counts for individual sample genome coverages
+counts.ervgroups$corrcount  <- counts.ervgroups$count/counts.ervgroups$cov * mean(counts.ervgroups$cov)
+
+
+# filter for locations with 10 or more samples 
+location.counts <- data.frame(table(counts.ervgroups$location))
+names(location.counts) <- c("location", "count")
+
+# plotting for locations with 10 or more samples 
+counts.ervgroups.newsamps.limloc <- counts.ervgroups[counts.ervgroups$location %in% location.counts$location[location.counts$count >= 30],]
+counts.ervgroups.newsamps.limloc$lat[counts.ervgroups.newsamps.limloc$location %like% "Moira"] <- 36.1
+counts.ervgroups.newsamps.limloc <- counts.ervgroups.newsamps.limloc[order(counts.ervgroups.newsamps.limloc$lat),]
+
+ggplot(counts.ervgroups.newsamps.limloc, aes(x=location, y=corrcount,  fill=group))+ 
+  theme_bw() +  ylim(0,135) +
+  geom_boxplot()  + ylab("Corrected counts") + xlab("State and sampling location") +
+  #  theme(axis.text.x = element_text(angle = 0, vjust = 0.5, hjust=1)) +
+  scale_color_manual(values=RColorBrewer::brewer.pal(3, "Paired")) +
+  scale_fill_manual(values=RColorBrewer::brewer.pal(3, "Paired")) + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1, size=15), 
+        axis.title.x=element_text(angle = 180, size=15), 
+        axis.text.y=element_text(size=15, angle = 90), 
+        axis.title.y=element_text( size=15), 
+        legend.text = element_text( size=15), 
+        legend.title = element_text( size=15), 
+        legend.position = c(0.9, 0.85)) + 
+  theme(legend.position="none")
+
+
+#### PLOTTING | figure 2 population frequency by geographic distances ####
+poly.ervs.joined.mat <- data.matrix(poly.ervs.joined, rownames.force = T)
+erv.dists <- data.frame(locus=rownames(poly.ervs.joined), 
+                        dist=NA)
+for (i in 1:nrow(erv.dists)){
+  samples.with.locus <- names(poly.ervs.joined.mat[erv.dists$locus[i],][poly.ervs.joined.mat[erv.dists$locus[i],]==1])
+  if (length(samples.with.locus) == 1){
+    erv.dists$dist[i] <- 0
+  } else {
+    temp <- awgg_samples_wlat[,c("samplenames","lat","lon")][awgg_samples_wlat[,c("samplenames","lat","lon")]$samplenames %in% samples.with.locus,]
+    temp <- temp[!is.na(temp$lat),]
+    if (nrow(temp) == 0){
+      erv.dists$dist[i] <- NA
+    } else {
+      erv.dists$dist[i] <- max(geodist(temp, measure = "haversine")/1000)
+    }
+  }
+}
+
+erv.dists$freq <- rowSums(poly.ervs.joined,na.rm = T)/430
+
+plot(erv.dists$freq[erv.dists$locus %like% "KoRV"], 
+     erv.dists$dist[erv.dists$locus %like% "KoRV"], main="", 
+     col="cadetblue2", pch = 16, xlim=c(0,1), ylim=c(0,2500),
+     xlab="Population-wide frequency", ylab="Max distance between shared loci")
+
+plot(erv.dists$freq[erv.dists$locus %like% "phaCinBeta" & !erv.dists$locus %like% "phaCinBetalike"], 
+     erv.dists$dist[erv.dists$locus %like% "phaCinBeta"& !erv.dists$locus %like% "phaCinBetalike"],  main="", 
+     col="deepskyblue3", pch = 16, xlim=c(0,1), ylim=c(0,2500),
+     xlab="Population-wide frequency", ylab="Max distance between shared loci")
+
+plot(erv.dists$freq[erv.dists$locus %like% "phaCinBetalike"], 
+     erv.dists$dist[erv.dists$locus %like% "phaCinBetalike"], main="", 
+     col="darkolivegreen2", pch = 16, xlim=c(0,1), ylim=c(0,2500),
+     xlab="Population-wide frequency", ylab="Max distance between shared loci")
+
+
+
+
+
+#### PLOTTING | figure 2 NSW/QLD frequency by VIC frequency ####
+poly.ervs.vic.vs.therest <- data.frame(locus= rownames(poly.ervs.joined), 
+                                       vic.freq=NA, 
+                                       therest.freq=NA, 
+                                       qld.freq=NA, 
+                                       nsw.freq=NA)
+
+poly.ervs.vic.vs.therest$vic.freq <- rowSums(poly.ervs.joined[,colnames(poly.ervs.joined) %in% awgg_metadata$AWS_File_Name[awgg_metadata$AWS_Folder_Name %like% "VIC"]], na.rm = T)/length(awgg_metadata$AWS_File_Name[awgg_metadata$AWS_Folder_Name %like% "VIC"])
+poly.ervs.vic.vs.therest$therest.freq <- rowSums(poly.ervs.joined[,colnames(poly.ervs.joined) %in% awgg_metadata$AWS_File_Name[!awgg_metadata$AWS_Folder_Name %like% "VIC"]], na.rm = T)/length(awgg_metadata$AWS_File_Name[!awgg_metadata$AWS_Folder_Name %like% "VIC"])
+poly.ervs.vic.vs.therest$qld.freq <- rowSums(poly.ervs.joined[,colnames(poly.ervs.joined) %in% awgg_metadata$AWS_File_Name[awgg_metadata$AWS_Folder_Name %like% "QLD"]], na.rm = T)/length(awgg_metadata$AWS_File_Name[awgg_metadata$AWS_Folder_Name %like% "QLD"])
+poly.ervs.vic.vs.therest$nsw.freq <- rowSums(poly.ervs.joined[,colnames(poly.ervs.joined) %in% awgg_metadata$AWS_File_Name[awgg_metadata$AWS_Folder_Name %like% "NSW"]], na.rm = T)/length(awgg_metadata$AWS_File_Name[awgg_metadata$AWS_Folder_Name %like% "NSW"])
+poly.ervs.vic.vs.therest$clade <- gsub(".*_", "", poly.ervs.vic.vs.therest$locus)
+head(poly.ervs.vic.vs.therest)
+
+plot(poly.ervs.vic.vs.therest$vic.freq[poly.ervs.vic.vs.therest$clade == "phaCinBetalike"], col="darkolivegreen2",
+     poly.ervs.vic.vs.therest$therest.freq[poly.ervs.vic.vs.therest$clade == "phaCinBetalike"], pch=16, 
+     xlab="Vic.freq", ylab="NSW.Qld.freq", main="phaCin-beta-like")
+plot(poly.ervs.vic.vs.therest$vic.freq[poly.ervs.vic.vs.therest$clade == "phaCinBeta"], col="deepskyblue3",
+     poly.ervs.vic.vs.therest$therest.freq[poly.ervs.vic.vs.therest$clade == "phaCinBeta"], pch=16, 
+     xlab="Vic.freq", ylab="NSW.Qld.freq", main="phaCin-beta")
+plot(poly.ervs.vic.vs.therest$vic.freq[poly.ervs.vic.vs.therest$clade == "KoRVlike"], col="cadetblue2", 
+     poly.ervs.vic.vs.therest$therest.freq[poly.ervs.vic.vs.therest$clade == "KoRVlike"], pch=16, 
+     xlab="Vic.freq", ylab="NSW.Qld.freq", main="KoRV")
+
+lm(vic.freq ~therest.freq, data=poly.ervs.vic.vs.therest[poly.ervs.vic.vs.therest$clade == "KoRVlike",])
+lm(vic.freq ~therest.freq, data=poly.ervs.vic.vs.therest[poly.ervs.vic.vs.therest$clade == "phaCinBeta",])
+lm(vic.freq ~therest.freq, data=poly.ervs.vic.vs.therest[poly.ervs.vic.vs.therest$clade == "phaCinBetalike",])
+
+summary(lm(therest.freq ~vic.freq, data=poly.ervs.vic.vs.therest[poly.ervs.vic.vs.therest$clade == "KoRVlike",]))
+# Multiple R-squared:  0.02084,	Adjusted R-squared:  0.02073 
+summary(lm(therest.freq ~vic.freq, data=poly.ervs.vic.vs.therest[poly.ervs.vic.vs.therest$clade == "phaCinBeta",]))
+# Multiple R-squared:  0.2628,	Adjusted R-squared:  0.2626
+summary(lm(therest.freq ~vic.freq, data=poly.ervs.vic.vs.therest[poly.ervs.vic.vs.therest$clade == "phaCinBetalike",]))
+# Multiple R-squared:  0.8967,	Adjusted R-squared:  0.8965
+
+
+
+
+#### PLOTTING | figure 2 heatmaps ####
+# pairwise counts of shared ERV loci: 
+
+# pairwise.in <- poly.ervs.joined.mat[rownames(poly.ervs.joined) %like% "KoRV",]
+# pairwise.in <- poly.ervs.joined.mat[rownames(poly.ervs.joined) %like% "phaCinBetalike",]
+# pairwise.in <- poly.ervs.joined.mat[rownames(poly.ervs.joined) %like% "phaCinBeta" & !rownames(poly.ervs.joined) %like% "phaCinBetalike",]
+# dim(pairwise.in)
+# m2 <- outer(1:nrow(t(pairwise.in)), 
+#             1:nrow(t(pairwise.in)), FUN=Vectorize(function(x,y)
+#               #sum(t(pairwise.in)[x,]!=t(pairwise.in)[y,]))
+#               sum(names(t(pairwise.in)[x,][t(pairwise.in)[x,] == 1]) %in% names(t(pairwise.in)[y,][t(pairwise.in)[y,] == 1])))
+# )
+# colnames(m2) <- colnames(pairwise.in)
+# rownames(m2) <- colnames(pairwise.in)
+# assign("phaCinBeta.sum.pairwise", m2)
+
+# KoRV pairwise
+KoRV.sum.pairwise <- fread("./files/KoRV.sum.pairwise.csv")
+rownames(KoRV.sum.pairwise) <- KoRV.sum.pairwise$V1
+KoRV.sum.pairwise$V1 <- NULL
+KoRV.sum.pairwisemat <- matrix(as.numeric(unlist(KoRV.sum.pairwise)), ncol=ncol(KoRV.sum.pairwise), nrow=nrow(KoRV.sum.pairwise))
+colnames(KoRV.sum.pairwisemat) <- colnames(KoRV.sum.pairwise)
+rownames(KoRV.sum.pairwisemat) <- colnames(KoRV.sum.pairwise)
+
+# phaCinBeta pairwise
+phaCinBeta.sum.pairwise <- fread("./files/phaCinBeta.sum.pairwise.csv")
+rownames(phaCinBeta.sum.pairwise) <- phaCinBeta.sum.pairwise$V1
+phaCinBeta.sum.pairwise$V1 <- NULL
+phaCinBeta.sum.pairwisemat <- matrix(as.numeric(unlist(phaCinBeta.sum.pairwise)), ncol=ncol(phaCinBeta.sum.pairwise), nrow=nrow(phaCinBeta.sum.pairwise))
+colnames(phaCinBeta.sum.pairwisemat) <- colnames(phaCinBeta.sum.pairwise)
+rownames(phaCinBeta.sum.pairwisemat) <- colnames(phaCinBeta.sum.pairwise)
+
+# phaCinBetalike pairwise
+phaCinBetalike.sum.pairwise <- fread("./files/phaCinBetalike.sum.pairwise.csv")
+rownames(phaCinBetalike.sum.pairwise) <- phaCinBetalike.sum.pairwise$V1
+phaCinBetalike.sum.pairwise$V1 <- NULL
+phaCinBetalike.sum.pairwisemat <- matrix(as.numeric(unlist(phaCinBetalike.sum.pairwise)), ncol=ncol(phaCinBetalike.sum.pairwise), nrow=nrow(phaCinBetalike.sum.pairwise))
+colnames(phaCinBetalike.sum.pairwisemat) <- colnames(phaCinBetalike.sum.pairwise)
+rownames(phaCinBetalike.sum.pairwisemat) <- colnames(phaCinBetalike.sum.pairwise)
+
+
+# setting order of samples for heatmap
+awgg.the.order.of.things <- awgg.the.order.of.things$AWS_Folder_Name[awgg.the.order.of.things$AWS_Folder_Name != "NSW_Byron_Bay"]
+awgg_samples_wlat0905 <- NULL
+for (i in 1:length(awgg.the.order.of.things)){
+  awgg_samples_wlat0905 <- rbind(awgg_samples_wlat0905,
+                                 awgg_samples_wlat[awgg_samples_wlat$samplenames %in% 
+                                                     awgg_metadata$AWS_File_Name[awgg_metadata$AWS_Folder_Name == awgg.the.order.of.things[i]],])
+}
+awgg_samples_wlat0905$region <- awgg_metadata$AWS_Folder_Name[match(awgg_samples_wlat0905$samplenames, awgg_metadata$AWS_File_Name)]
+awgg_samples_wlat0905$state <- gsub("_.*","",awgg_samples_wlat0905$region)
+
+
+## heatmaps
+pheatmap(KoRV.sum.pairwisemat[awgg_samples_wlat0905$samplenames,awgg_samples_wlat0905$samplenames],
+         cluster_rows=FALSE, cluster_cols=FALSE, display_numbers = F, cex=0.8,  
+         color = colorRampPalette(rev(brewer.pal(n = 9, name ="GnBu"))[2:9])(300), 
+         breaks=seq(from=0,to=150, by=0.5), 
+         labels_row = "", labels_col = "")
+pheatmap(phaCinBeta.sum.pairwisemat[awgg_samples_wlat0905$samplenames,awgg_samples_wlat0905$samplenames],
+         cluster_rows=FALSE, cluster_cols=FALSE, display_numbers = F, cex=0.8, 
+         color = colorRampPalette(rev(brewer.pal(n = 9, name ="GnBu"))[2:9])(300), 
+         breaks=seq(from=0,to=150, by=0.5), 
+         labels_row = "", labels_col = "")
+pheatmap(phaCinBetalike.sum.pairwisemat[awgg_samples_wlat0905$samplenames,awgg_samples_wlat0905$samplenames],
+         cluster_rows=FALSE, cluster_cols=FALSE, display_numbers = F, cex=0.8, 
+         color = colorRampPalette(rev(brewer.pal(n = 9, name ="GnBu"))[2:9])(300), 
+         breaks=seq(from=0,to=150, by=0.5), 
+         labels_row = "", labels_col = "")
+
+
+
+
+
+
+
+
+
+
+
+### 2023/11/09 Mette Lillie mette.lillie@ebc.uu.se
 
